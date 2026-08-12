@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --muted: #475569;
+  --accent: #2f5aa8;
+  --accent-foreground: #ffffff;
+  --brand-dark: #16305c;
+  --brand-light: #4d76c2;
+  --banner-bg: #f1f5f9;
+  --banner-border: #dbe3ec;
+  --banner-text: #334155;
+  --gotcha-bg: #fdf8ee;
+  --gotcha-border: #c8973a;
+  --gotcha-text: #4a3a12;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-brand-dark: var(--brand-dark);
+  --color-brand-light: var(--brand-light);
+  --color-banner-bg: var(--banner-bg);
+  --color-banner-border: var(--banner-border);
+  --color-banner-text: var(--banner-text);
+  --color-gotcha-bg: var(--gotcha-bg);
+  --color-gotcha-border: var(--gotcha-border);
+  --color-gotcha-text: var(--gotcha-text);
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-body);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0b1220;
+    --foreground: #e2e8f0;
+    --surface: #121a2b;
+    --border: #22304a;
+    --muted: #94a3b8;
+    --accent: #7fa3e0;
+    --accent-foreground: #0b1220;
+    --brand-dark: #cddcf5;
+    --brand-light: #7fa3e0;
+    --banner-bg: #10192b;
+    --banner-border: #22304a;
+    --banner-text: #c3ccdb;
+    --gotcha-bg: #26200f;
+    --gotcha-border: #a87d2c;
+    --gotcha-text: #edd9a6;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
 }
