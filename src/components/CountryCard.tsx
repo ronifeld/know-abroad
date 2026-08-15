@@ -1,18 +1,17 @@
-// Card on a scenario's country picker page, linking to /[scenario]/[country].
+// Card on the home page's country picker, linking to /[country].
 import Link from "next/link";
-import type { CountryContent } from "@/types/scenario";
 import CountryFlag from "@/components/CountryFlag";
 
 export default function CountryCard({
   country,
-  scenarioSlug,
+  href,
 }: {
-  country: CountryContent;
-  scenarioSlug: string;
+  country: { slug: string; name: string };
+  href: string;
 }) {
   return (
     <Link
-      href={`/${scenarioSlug}/${country.slug}`}
+      href={href}
       className="group flex items-center gap-4 rounded-2xl border border-border bg-surface p-5 shadow-[var(--card-shadow)] transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/40 hover:shadow-[var(--card-shadow-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
     >
       <CountryFlag slug={country.slug} name={country.name} />

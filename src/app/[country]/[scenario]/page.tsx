@@ -1,5 +1,5 @@
-// Dynamic country detail page, scoped to a scenario. All (scenario, country)
-// pairs are known ahead of time, so we prerender via generateStaticParams.
+// Dynamic country+topic detail page. All (country, scenario) pairs are
+// known ahead of time, so we prerender via generateStaticParams.
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Container from "@/components/Container";
@@ -14,8 +14,8 @@ import { getAllScenarios, getCountryInScenario } from "@/lib/scenarios";
 export async function generateStaticParams() {
   return getAllScenarios().flatMap((scenario) =>
     scenario.countries.map((country) => ({
-      scenario: scenario.slug,
       country: country.slug,
+      scenario: scenario.slug,
     }))
   );
 }
@@ -23,9 +23,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ scenario: string; country: string }>;
+  params: Promise<{ country: string; scenario: string }>;
 }): Promise<Metadata> {
-  const { scenario: scenarioSlug, country: countrySlug } = await params;
+  const { country: countrySlug, scenario: scenarioSlug } = await params;
   const match = getCountryInScenario(scenarioSlug, countrySlug);
   return {
     title: match
@@ -42,12 +42,12 @@ function formatDate(iso: string) {
   });
 }
 
-export default async function CountryPage({
+export default async function CountryScenarioPage({
   params,
 }: {
-  params: Promise<{ scenario: string; country: string }>;
+  params: Promise<{ country: string; scenario: string }>;
 }) {
-  const { scenario: scenarioSlug, country: countrySlug } = await params;
+  const { country: countrySlug, scenario: scenarioSlug } = await params;
   const match = getCountryInScenario(scenarioSlug, countrySlug);
 
   if (!match) {
@@ -62,8 +62,8 @@ export default async function CountryPage({
         <Breadcrumb
           items={[
             { label: "Home", href: "/" },
-            { label: scenario.shortLabel, href: `/${scenario.slug}` },
-            { label: country.name },
+            { label: country.name, href: `/${country.slug}` },
+            { label: scenario.shortLabel },
           ]}
         />
 
@@ -72,6 +72,7 @@ export default async function CountryPage({
             <CountryFlag slug={country.slug} name={country.name} className="h-8 w-[2.667rem] rounded-md sm:h-9 sm:w-12" />
             {country.name}
           </h1>
+          <p className="mt-2 text-lg font-medium text-muted">{scenario.title}</p>
           <p className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1 text-xs font-medium text-muted">
             <svg
               viewBox="0 0 20 20"
