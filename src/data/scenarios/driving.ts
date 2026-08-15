@@ -582,4 +582,342 @@ export const drivingCountries: CountryContent[] = [
       },
     ],
   },
+  {
+    slug: "italy",
+    name: "Italy",
+    flagEmoji: "🇮🇹",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "License Requirements",
+        content: {
+          kind: "list",
+          items: [
+            "Official U.S. Embassy guidance recommends getting an International Driving Permit before you leave the U.S. if you plan to drive in Italy as a tourist.",
+            "Italian law technically allows a non-EU/EEA license accompanied by an official Italian translation as an alternative to an IDP, but in practice the IDP is the simpler, standardized option most travelers use.",
+            "The IDP has to be obtained in the U.S., through AAA or AATA; it can't be issued to you once you're in Italy.",
+          ],
+        },
+      },
+      {
+        title: "Enforcement",
+        content: {
+          kind: "list",
+          items: [
+            "If you're stopped without an IDP (or the required translation), reported fines range from €80 to €317.",
+            "Driving without the proper documentation can also affect whether your car insurance actually covers you in an incident.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Italy is one of those 'technically optional, practically not' situations: the law allows a certified Italian translation of your license as an alternative to an IDP, but getting a certified translation is more hassle than just getting the IDP from AAA before your trip, and the fine range for showing up without either (€80–€317) is real enough that it's not worth testing.",
+    sources: [
+      {
+        label: "Transportation and Driving in Italy",
+        publisher: "U.S. Embassy & Consulates in Italy",
+        url: "https://it.usembassy.gov/transportation-and-driving-in-italy/",
+      },
+    ],
+  },
+  {
+    slug: "netherlands",
+    name: "Netherlands",
+    flagEmoji: "🇳🇱",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "License Requirements",
+        content: {
+          kind: "list",
+          items: [
+            "As a visitor, you can drive on your valid U.S. license for up to 185 days from your arrival, since the Netherlands allows non-EU/EFTA licenses for that period.",
+            "An International Driving Permit isn't strictly required if the license categories on your U.S. license are clearly marked (A, B, C, D, E), but the RDW (Dutch vehicle authority) recommends getting one anyway if there's any ambiguity, and it must be obtained in the U.S. through AAA or AATA before you travel.",
+          ],
+        },
+      },
+      {
+        title: "If You Stay Longer",
+        content: {
+          kind: "list",
+          items: [
+            "The 185-day allowance is a hard cutoff, not renewable by leaving and re-entering. If you move to the Netherlands rather than just visiting, you generally need to exchange your U.S. license for a Dutch one within that window.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The Netherlands' 185-day allowance for a U.S. license is more generous than most Schengen countries covered here, but it's tied to your actual move-in date, not to how long you've technically been 'in the country' on paper. Track the date from your arrival carefully if you're settling in rather than just visiting.",
+    sources: [
+      {
+        label: "Driving with a foreign driving licence",
+        publisher: "RDW (Rijksdienst voor het Wegverkeer, Netherlands Vehicle Authority)",
+        url: "https://www.rdw.nl/en/driving-licence/foreign-driving-licence/driving-with-a-foreign-driving-licence",
+      },
+    ],
+  },
+  {
+    slug: "switzerland",
+    name: "Switzerland",
+    flagEmoji: "🇨🇭",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "License Requirements",
+        content: {
+          kind: "list",
+          items: [
+            "As a visitor, you can drive on your valid U.S. license for up to 1 year, since it's accepted in English (Switzerland also accepts French, German, and Italian).",
+            "An International Driving Permit isn't strictly required by law for a U.S. license, but it's strongly recommended and frequently requested by rental car agencies regardless of the legal minimum.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Switzerland's 1-year allowance for a U.S. license, without an IDP being legally mandatory, is unusually generous compared to most of Europe. The catch is entirely practical, not legal: rental counters often want an IDP anyway as their own condition of rental, so 'not required' doesn't guarantee you'll be able to pick up a car without one.",
+    sources: [
+      {
+        label: "Driving in Switzerland on a foreign licence",
+        publisher: "Federal Department of Foreign Affairs (FDFA), Switzerland, U.S. Mission",
+        url: "https://www.eda.admin.ch/countries/usa/en/home/services/driving-and-vehicles/driving-ch-foreign-licence.html",
+      },
+    ],
+  },
+  {
+    slug: "new-zealand",
+    name: "New Zealand",
+    flagEmoji: "🇳🇿",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "License Requirements",
+        content: {
+          kind: "list",
+          items: [
+            "As a visitor, you can drive on your valid U.S. license, no International Driving Permit needed, since it's already in English.",
+            "You must carry your physical license while driving; a photo of it on your phone doesn't count.",
+            "You can only drive the categories of vehicle you're licensed for back home.",
+          ],
+        },
+      },
+      {
+        title: "Time Limit Is Changing",
+        content: {
+          kind: "list",
+          items: [
+            "Currently, you can drive on your U.S. license for up to 18 months from your last entry into New Zealand.",
+            "From November 1, 2026, this drops to 12 months from your last entry, a real, upcoming reduction, not a rumor.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "New Zealand's generous 18-month allowance for a foreign license is about to get shorter: from November 1, 2026, it drops to 12 months. If you're planning an extended stay that straddles that date, don't assume the older, longer window still applies, check NZTA's site for the current rule before you rely on a specific number of months.",
+    sources: [
+      {
+        label: "Time limit extended for driving on an overseas car licence",
+        publisher: "NZ Transport Agency Waka Kotahi",
+        url: "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads/time-limit-extended-for-driving-on-an-overseas-licence",
+      },
+      {
+        label: "Driving on New Zealand roads",
+        publisher: "NZ Transport Agency Waka Kotahi",
+        url: "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads",
+      },
+    ],
+  },
+  {
+    slug: "vietnam",
+    name: "Vietnam",
+    flagEmoji: "🇻🇳",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "License Requirements",
+        content: {
+          kind: "list",
+          items: [
+            "According to U.S. Embassy guidance, a foreign license, even paired with an International Driving Permit, is not considered valid for driving in Vietnam.",
+            "The core issue: Vietnam recognizes IDPs issued under the 1968 Vienna Convention on Road Traffic. The U.S. only issues IDPs under the 1949 Geneva Convention, so a standard AAA/AATA-issued American IDP isn't the document Vietnam actually accepts.",
+            "To drive legally, foreigners generally need to obtain a Vietnamese driver's license through the local Traffic Police Department.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Vietnam is one of the clearest cases on this site where the 'just get an IDP before you go' advice that works almost everywhere else doesn't actually solve the problem: the standard American IDP is issued under a convention (1949 Geneva) that Vietnam doesn't recognize. If you're planning to drive yourself (especially a motorbike, extremely common with tourists), budget for actually getting a Vietnamese license rather than assuming your U.S. paperwork will cover you, and be aware that driving without proper documentation can void travel insurance and rental coverage.",
+    sources: [
+      {
+        label: "Driving in Vietnam",
+        publisher: "U.S. Embassy & Consulate in Vietnam",
+        url: "https://vn.usembassy.gov/driving-in-vietnam/",
+      },
+    ],
+  },
+  {
+    slug: "indonesia",
+    name: "Indonesia",
+    flagEmoji: "🇮🇩",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "License Requirements",
+        content: {
+          kind: "list",
+          items: [
+            "As a short-term visitor, you need both your valid U.S. license and an International Driving Permit; a U.S. license alone isn't sufficient.",
+            "Your IDP must specifically cover the vehicle category you plan to drive: a car-only IDP doesn't authorize a motorbike, and vice versa, which matters a lot given how common motorbike rental is for tourists in Indonesia.",
+            "The IDP has to be arranged before you travel; it can't be issued once you're in Indonesia.",
+          ],
+        },
+      },
+      {
+        title: "If You Stay Longer",
+        content: {
+          kind: "list",
+          items: [
+            "An IDP only covers short-term visitors. If you're staying on a longer-term permit like a KITAS (temporary residence permit), you're required to get a local Indonesian driving license (SIM) instead.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The vehicle-category mismatch is a real, common trap: tourists routinely rent a motorbike in Bali or elsewhere assuming a car-category IDP (or their U.S. car license) covers it. It doesn't. If you're planning to ride a scooter or motorbike, you specifically need an IDP endorsed for motorcycles, not just any IDP.",
+    sources: [
+      {
+        label: "SIM Internasional (International Driving Permit)",
+        publisher: "Korps Lalu Lintas Kepolisian Republik Indonesia (Korlantas Polri)",
+        url: "https://korlantas.polri.go.id/tag/sim-internasional/",
+      },
+    ],
+  },
+  {
+    slug: "philippines",
+    name: "Philippines",
+    flagEmoji: "🇵🇭",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Driving as a Tourist",
+        content: {
+          kind: "list",
+          items: [
+            "Under the Land Transportation and Traffic Code, bona fide tourists may legally drive using a valid foreign driver's license for up to 90 days from arrival, without needing a Philippine license or an IDP.",
+            "If your foreign license isn't in English, you should carry an official English translation, since traffic enforcers need to be able to read it.",
+            "An International Driving Permit is accepted alongside your original foreign license, but it doesn't extend the 90-day window on its own; the 90-day cap applies either way.",
+          ],
+        },
+      },
+      {
+        title: "After 90 Days",
+        content: {
+          kind: "list",
+          items: [
+            "Once you pass 90 days in the country, your foreign license (and any IDP) stops being valid for driving; you're required to get a Philippine driver's license from the Land Transportation Office (LTO) to keep driving legally.",
+            "If your foreign license is still currently valid, LTO conversion typically skips the written and practical exams; an expired foreign license requires taking both.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The 90-day clock runs from your date of arrival in the Philippines, not from when you first get behind the wheel, and it isn't reset by a visa extension. It's easy to extend your tourist stay well past 90 days (which the Bureau of Immigration allows routinely) while forgetting that your driving privileges quietly expired on a separate, shorter clock.",
+    sources: [
+      {
+        label: "Republic Act No. 4136, Section 21 (Land Transportation and Traffic Code)",
+        publisher: "Official Gazette of the Republic of the Philippines",
+        url: "https://www.officialgazette.gov.ph/1964/06/20/republic-act-no-4136/",
+      },
+    ],
+  },
+  {
+    slug: "india",
+    name: "India",
+    flagEmoji: "🇮🇳",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "License Requirements",
+        content: {
+          kind: "list",
+          items: [
+            "As a foreign visitor, you're expected to carry both your valid home-country driving license and an International Driving Permit while driving in India; officers commonly ask for your license, passport/visa, and IDP together if you're stopped.",
+            "Under the Motor Vehicles Act, a valid foreign license (used alongside an IDP) is generally recognized for up to one year; driving without a valid license is a punishable offense.",
+            "The IDP needs to be obtained before you travel, through the licensing/automobile-association authority in your home country; it can't be issued once you're in India.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Given how India's traffic environment is often described (dense, unpredictable, and very different from U.S. norms), many visitors choose to hire a local driver rather than self-drive at all; this isn't a legal requirement, just a practical note worth knowing before you assume renting a car works the way it might elsewhere. Legally, though, the license/IDP combination is what's required if you do drive yourself.",
+    sources: [
+      {
+        label: "The Motor Vehicles Act, 1988",
+        publisher: "India Code (Legislative Department, Ministry of Law and Justice, Government of India)",
+        url: "https://www.indiacode.nic.in/bitstream/123456789/9460/1/a1988-59.pdf",
+      },
+    ],
+  },
+  {
+    slug: "panama",
+    name: "Panama",
+    flagEmoji: "🇵🇦",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Driving as a Tourist",
+        content: {
+          kind: "list",
+          items: [
+            "Under Panama's Vehicular Transit Regulations (Article 110), foreign tourists can drive using a valid license from their home country for up to 90 days from entry; they're not permitted to obtain a Panamanian license or extend that 90-day driving window while on tourist status.",
+            "An International Driving Permit isn't legally required, but it's a widely recommended Spanish-language supplement to your home license, useful if you're stopped and the officer isn't familiar with foreign license formats.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "This is a real trap given how generous Panama's tourist entry is: U.S. citizens get a full 180 days as a visa-free tourist, but the separate driving privilege granted to that same tourist status expires at 90 days, exactly half your allowed stay. Immigration stamping you in for 180 days doesn't mean you can legally drive for 180 days; those are two different clocks, and only one of them matches your visa.",
+    sources: [
+      {
+        label: "Reglamento de Tránsito Vehicular (Art. 110)",
+        publisher: "Autoridad del Tránsito y Transporte Terrestre (ATTT), Panamá",
+        url: "https://transito.gob.pa/wp-content/uploads/2025/02/Regalmento_ATTT_2025.pdf",
+      },
+    ],
+  },
+  {
+    slug: "colombia",
+    name: "Colombia",
+    flagEmoji: "🇨🇴",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Driving as a Tourist",
+        content: {
+          kind: "list",
+          items: [
+            "Under Article 25 of Colombia's Ley 769 de 2002 (National Traffic Code), a valid foreign driving license is recognized for driving in Colombia for the duration of your authorized stay as a tourist, which unlike some countries on this site, means the driving privilege actually tracks your full visa status rather than expiring on a separate, shorter clock.",
+            "Since a tourist/transit status can run up to 180 days in a calendar year, your foreign license stays usable for that entire period, no separate IDP requirement or shorter driving-specific cutoff.",
+          ],
+        },
+      },
+      {
+        title: "If You Stay Longer",
+        content: {
+          kind: "list",
+          items: [
+            "If your stay extends past the tourist/transit period (beyond roughly 6 months) or your immigration status changes, you're required to apply for a Colombian license under the first-time applicant process, following the standard requirements.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Colombia is a pleasant exception on this page: several other countries in this dataset grant a generous tourist stay but cap actual driving privileges at a shorter window (Panama's 90-day driving cutoff inside a 180-day stay is a good example). Colombia's rule ties the two together, so as long as you're within your authorized tourist period, your home license keeps working without a separate countdown to track.",
+    sources: [
+      {
+        label: "Trámites y Servicios: Tránsito - Licencia Internacional",
+        publisher: "Ministerio de Transporte, Colombia",
+        url: "https://mintransporte.gov.co/preguntas-frecuentes/58/transito-licencia-internacional/",
+      },
+    ],
+  },
 ];

@@ -21,6 +21,16 @@ import {
   CR,
   TH,
   KR,
+  IT,
+  NL,
+  CH,
+  NZ,
+  VN,
+  ID,
+  PH,
+  IN,
+  PA,
+  CO,
 } from "country-flag-icons/react/3x2";
 
 const FLAGS: Record<string, React.ComponentType<{ className?: string; title?: string }>> = {
@@ -40,6 +50,16 @@ const FLAGS: Record<string, React.ComponentType<{ className?: string; title?: st
   "costa-rica": CR,
   thailand: TH,
   "south-korea": KR,
+  italy: IT,
+  netherlands: NL,
+  switzerland: CH,
+  "new-zealand": NZ,
+  vietnam: VN,
+  indonesia: ID,
+  philippines: PH,
+  india: IN,
+  panama: PA,
+  colombia: CO,
 };
 
 export default function CountryFlag({

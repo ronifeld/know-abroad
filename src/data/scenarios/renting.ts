@@ -695,4 +695,396 @@ export const rentingCountries: CountryContent[] = [
       },
     ],
   },
+  {
+    slug: "italy",
+    name: "Italy",
+    flagEmoji: "🇮🇹",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Deposit Rules",
+        content: {
+          kind: "list",
+          items: [
+            "The security deposit (cauzione) is capped by law at 3 months' rent.",
+            "The deposit legally accrues interest for the tenant every year; a contract clause stating it's interest-free is void even if you signed it.",
+            "The landlord must return the deposit after the final walkthrough unless they can document specific damage; they can't simply keep it without justification.",
+          ],
+        },
+      },
+      {
+        title: "Lease Length (the '4+4' Rule)",
+        content: {
+          kind: "list",
+          items: [
+            "Under Article 2 of Law 431/1998, an ordinary residential lease has a legal minimum term of 4 years, automatically renewed for another 4 years, commonly called '4+4.' This minimum is set by law and isn't something you or the landlord can contract around to something shorter.",
+            "A separate, shorter 'canone concordato' (agreed-rent) lease type exists with different terms, typically 3 years renewable for 2 ('3+2'), tied to local rent agreements.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Italy's standard residential lease has a legally mandated minimum term of 4 years, automatically renewing for another 4 ('4+4') under Law 431/1998, regardless of what a shorter written contract might say. If you're renting long-term in Italy, this default duration is baked into the law itself, not just a landlord's preference, so it's worth understanding before you sign anything that looks like a shorter fixed term.",
+    sources: [
+      {
+        label: "Legge 9 dicembre 1998, n. 431 (Disciplina delle locazioni)",
+        publisher: "Parlamento Italiano",
+        url: "https://www.parlamento.it/parlam/leggi/98431l.htm",
+      },
+    ],
+  },
+  {
+    slug: "netherlands",
+    name: "Netherlands",
+    flagEmoji: "🇳🇱",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Deposit Rules",
+        content: {
+          kind: "list",
+          items: [
+            "As of July 1, 2023, the security deposit (waarborgsom) is capped at 2 months' base rent (excluding service costs).",
+            "Under Article 7:261b of the Dutch Civil Code, the landlord must repay the deposit within 14 days of the lease ending, provided the property is returned as agreed and undamaged.",
+            "If there's damage or unpaid rent, the landlord must specifically itemize what's being deducted; they can't just withhold a vague lump sum.",
+          ],
+        },
+      },
+      {
+        title: "Lease Type & Notice",
+        content: {
+          kind: "list",
+          items: [
+            "As of July 1, 2024 (Wet vaste huurcontracten), landlords can generally only offer indefinite-term leases for new rentals, not fixed-term contracts, with limited exceptions for specific groups like students.",
+            "Fixed-term leases signed before July 1, 2024 aren't affected and still end automatically at their agreed date.",
+            "With an indefinite lease, a landlord can't simply decline to renew or end it without a legally valid reason and, in most cases, a court's involvement.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "A lot of general advice about renting in the Netherlands still assumes fixed-term leases are normal; as of July 1, 2024, they mostly aren't anymore for new rentals. Landlords are now required to offer indefinite contracts by default, which is a real, recent legal shift that changes how much notice-based protection you actually have compared to older guidance.",
+    sources: [
+      {
+        label: "Woning huren: waarborgsom",
+        publisher: "Rijksoverheid (Government of the Netherlands)",
+        url: "https://www.rijksoverheid.nl/onderwerpen/woning-huren/vraag-en-antwoord/woning-huren-waarborgsom",
+      },
+      {
+        label: "Wet vaste huurcontracten vanaf 1 juli 2024 van kracht",
+        publisher: "Rijksoverheid (Government of the Netherlands)",
+        url: "https://www.rijksoverheid.nl/actueel/nieuws/2024/06/07/wet-vaste-huurcontracten-vanaf-1-juli-2024-van-kracht",
+      },
+    ],
+  },
+  {
+    slug: "switzerland",
+    name: "Switzerland",
+    flagEmoji: "🇨🇭",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Deposit Rules",
+        content: {
+          kind: "list",
+          items: [
+            "Under Article 257e of the Swiss Code of Obligations, the security deposit (Mietkaution) is capped at 3 months' rent and must be held in a dedicated bank account in the tenant's own name, not just kept by the landlord.",
+            "After you move out, the landlord has 30 days to release the deposit or formally raise a claim against it. If they don't assert a claim within 1 year of the tenancy ending, you can demand the bank release the deposit to you directly.",
+          ],
+        },
+      },
+      {
+        title: "Notice Periods",
+        content: {
+          kind: "list",
+          items: [
+            "Standard notice is 3 months, and Swiss practice is notably strict about it: notice periods are usually tied to specific calendar termination dates (commonly March 31, June 30, or September 30), and a termination letter delivered even one day late can reset the entire notice period.",
+            "You can't be evicted without formal, properly served written notice. If a landlord's notice looks improper or retaliatory, you can contest it for free through the cantonal Schlichtungsbehörde (conciliation authority).",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Swiss notice periods are rigid in a way that actually tends to favor tenants who know the rules: because termination has to hit an exact calendar date and be properly delivered, a landlord's notice that's even slightly late or improperly served can be voided by a Swiss court, potentially locking them into the lease for months longer than they intended. It's worth knowing this cuts both ways if you're the one trying to give notice too.",
+    sources: [
+      {
+        label: "Schweizerisches Obligationenrecht (Code of Obligations), incl. Art. 257e",
+        publisher: "Fedlex (Swiss Federal Council)",
+        url: "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de",
+      },
+    ],
+  },
+  {
+    slug: "new-zealand",
+    name: "New Zealand",
+    flagEmoji: "🇳🇿",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Bond Rules",
+        content: {
+          kind: "list",
+          items: [
+            "The bond (deposit) is capped at 4 weeks' rent.",
+            "Landlords must lodge the bond with Tenancy Services (a government body) within 23 working days of receiving it; they can't simply hold it themselves.",
+            "At the end of the tenancy, both parties apply online for the refund. If you and the landlord disagree on the amount, Tenancy Services holds the bond until the Tenancy Tribunal decides.",
+          ],
+        },
+      },
+      {
+        title: "Ending a Tenancy",
+        content: {
+          kind: "list",
+          items: [
+            "As of January 30, 2025, landlords can end a periodic (rolling) tenancy 'no cause,' with 90 days' notice, or with just 42 days' notice for specific grounds like the owner needing the property as their own home or an unconditional sale.",
+            "As a tenant, your own notice period to end a periodic tenancy is 21 days (reduced from 28 days by the same 2025 amendment).",
+            "A fixed-term tenancy automatically converts to a periodic (rolling) tenancy at the end of its term unless either side gives notice between 90 and 21 days before it ends.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "New Zealand actually reversed course on tenant protections: 'no cause' terminations, where a landlord doesn't have to give any specific reason, were reintroduced in January 2025 with 90 days' notice. If you're reading older guidance describing New Zealand as having ended no-cause terminations, that's now out of date, it's back, in the opposite direction from what the UK did around the same time.",
+    sources: [
+      {
+        label: "Changes to tenancy terminations now in force",
+        publisher: "Tenancy Services, New Zealand Government",
+        url: "https://www.tenancy.govt.nz/about-tenancy-services/news/changes-to-tenancy-terminations-now-in-force/",
+      },
+      {
+        label: "About lodging a bond",
+        publisher: "Tenancy Services, New Zealand Government",
+        url: "https://www.tenancy.govt.nz/rent-bond-and-bills/bond/about-lodging-a-bond/",
+      },
+    ],
+  },
+  {
+    slug: "vietnam",
+    name: "Vietnam",
+    flagEmoji: "🇻🇳",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Deposit Rules",
+        content: {
+          kind: "list",
+          items: [
+            "There's no single national cap on the deposit amount; it's set by the lease agreement itself, though it's meant to cover unpaid rent or damage and be returned (minus deductions) at the end of the lease.",
+            "Lease agreements aren't required to be notarized in most cases, but notarizing one is commonly recommended to reduce legal risk, since an unnotarized private agreement can be harder to enforce.",
+          ],
+        },
+      },
+      {
+        title: "Mandatory Residence Registration",
+        content: {
+          kind: "list",
+          items: [
+            "Whoever manages your accommodation (your landlord, or the property manager) is legally required to declare your temporary residence to the local Commune/Ward Police, generally within 12 hours of you moving in (up to 24 hours in remote or isolated areas).",
+            "This can be done online through the provincial Immigration Division's portal or the Ministry of Public Security's public service portal, or in person at the local police station.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "This isn't a landlord courtesy, it's a legal requirement tied to Vietnam's residence-declaration system, and it applies within hours of you moving in, not weeks. If you're renting privately (not through a hotel, which handles this automatically), confirm your landlord has actually filed the declaration, since it's their legal responsibility, not yours, but you're the one who can face problems with authorities if it wasn't done.",
+    sources: [
+      {
+        label: "Guidance on Declaration of Foreigners' Temporary Residence in Vietnam",
+        publisher: "Vietnam Immigration Department",
+        url: "https://xuatnhapcanh.gov.vn/en/tin-tuc/guidance-declaration-foreigners%E2%80%99-temporary-residence-vietnam-commune-level",
+      },
+    ],
+  },
+  {
+    slug: "indonesia",
+    name: "Indonesia",
+    flagEmoji: "🇮🇩",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "No Dedicated Tenant-Protection Statute",
+        content: {
+          kind: "list",
+          items: [
+            "Unlike most countries on this site, Indonesia doesn't have a dedicated residential tenancy law with statutory caps on deposits or standardized notice periods. Rental relationships are governed mainly by Indonesia's general Civil Code (KUHPerdata) contract provisions and whatever you actually sign.",
+            "This means the specific written lease agreement carries even more weight than usual: deposit amount, notice period, and renewal terms are whatever the contract says, not a legal floor you can fall back on.",
+          ],
+        },
+      },
+      {
+        title: "Payment Rules",
+        content: {
+          kind: "list",
+          items: [
+            "Under Indonesia's foreign exchange regulations, financial transactions within Indonesia, including rent, are required to be conducted in Indonesian Rupiah (IDR), not foreign currency, even if a listing was advertised in USD.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Indonesia is a genuine outlier among the countries on this site: there's no dedicated statutory tenant-protection law setting deposit caps or minimum notice periods the way Spain, Germany, or Portugal have. Whatever you sign really is close to the whole deal, so reading your actual lease contract carefully matters even more here than in places with a strong legal floor underneath it.",
+    sources: [
+      {
+        label: "Peraturan Bank Indonesia Nomor 17/3/PBI/2015 (Kewajiban Penggunaan Rupiah)",
+        publisher: "Bank Indonesia",
+        url: "https://www.bi.go.id/id/publikasi/peraturan/Pages/pbi_170315.aspx",
+      },
+    ],
+  },
+  {
+    slug: "philippines",
+    name: "Philippines",
+    flagEmoji: "🇵🇭",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Rent Control Only Covers Cheaper Units",
+        content: {
+          kind: "list",
+          items: [
+            "The Rent Control Act (RA 9653) caps annual rent increases at 7% for an occupied unit, but only for units renting at or below ₱10,000/month in Metro Manila or ₱5,000/month elsewhere; the coverage thresholds are periodically renewed by government resolution rather than being permanent.",
+            "Most housing marketed to foreigners, condos and serviced apartments in Manila, Cebu, or other expat hubs, rents well above those thresholds, which puts it outside rent control entirely and back under ordinary Civil Code freedom-of-contract rules.",
+          ],
+        },
+      },
+      {
+        title: "Deposits and Advance Rent",
+        content: {
+          kind: "list",
+          items: [
+            "For units that do fall under RA 9653's rent-control coverage, advance rent is capped at 1 month and the security deposit at 2 months.",
+            "Outside that coverage (which, again, is where most foreign renters end up), deposit and advance-rent amounts are whatever you and the landlord agree to in the contract; there's no statutory cap.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The deposit caps, rent-increase limits, and eviction-notice protections that make Philippine rental law sound tenant-friendly almost all live inside the Rent Control Act, and that Act only reaches units renting below roughly ₱10,000 (Metro Manila) or ₱5,000 (elsewhere) a month. A typical expat-oriented condo lease is priced well above that line, so in practice you're relying on the Civil Code's general lease provisions and whatever your specific contract says, not the stronger protections you might read about first.",
+    sources: [
+      {
+        label: "Republic Act No. 9653 (Rent Control Act of 2009)",
+        publisher: "Republic of the Philippines (via LawPhil Project statute archive)",
+        url: "https://www.lawphil.net/statutes/repacts/ra2009/ra_9653_2009.html",
+      },
+    ],
+  },
+  {
+    slug: "india",
+    name: "India",
+    flagEmoji: "🇮🇳",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "No Single National Rental Law",
+        content: {
+          kind: "list",
+          items: [
+            "Housing falls under the State List in India's Constitution, so there's no single nationwide rent-control or tenancy law; each state has its own Rent Control Act, and the rules that actually apply to you depend entirely on which state (and sometimes city) you're renting in.",
+            "In 2021, the central government approved the Model Tenancy Act as a suggested framework for states to adopt, but it's non-binding. Only a handful of states (including Andhra Pradesh, Assam, Tamil Nadu, and Uttar Pradesh) have updated their laws along its lines; many others, including Maharashtra, Karnataka, and West Bengal, still run on their older, separate Rent Control Acts.",
+          ],
+        },
+      },
+      {
+        title: "What This Means Practically",
+        content: {
+          kind: "list",
+          items: [
+            "Deposit limits, notice periods, and eviction protections that hold in one Indian state may simply not exist, or work completely differently, in the next state over. There's no way to give one accurate national answer the way you can for a single-country civil code system.",
+            "Before signing, it's worth specifically checking which Rent Control Act (or Model Tenancy Act-based law) applies in the state and city where you're actually renting, rather than relying on general advice about 'India.'",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "This is the one entry on this site where the honest answer to 'what are the rules' is: it depends on which state you're in. India's rent laws are genuinely fragmented at the state level, and a rule you read about (say, from a Delhi-focused blog) may not apply at all if you're renting in Bangalore or Mumbai. Confirm the specific state law before assuming anything general applies to your lease.",
+    sources: [
+      {
+        label: "The Model Tenancy Act, 2021",
+        publisher: "Ministry of Housing and Urban Affairs, Government of India",
+        url: "https://mohua.gov.in/cms/modeltenancyact.php",
+      },
+    ],
+  },
+  {
+    slug: "panama",
+    name: "Panama",
+    flagEmoji: "🇵🇦",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Security Deposit Goes to the Government, Not the Landlord",
+        content: {
+          kind: "list",
+          items: [
+            "Under Panama's Ley 93 de 1973 (the general rental law), a landlord who collects a security deposit (typically one month's rent) is required to deposit those funds with the Ministry of Housing and Land Use Planning (MIVIOT), not just hold onto them personally, and give the tenant the deposit receipt.",
+            "Landlords are also required to file a copy of the signed rental contract with MIVIOT's General Directorate of Rentals within 5 business days of signing.",
+          ],
+        },
+      },
+      {
+        title: "Rent Increase Controls Only Apply to Cheap Units",
+        content: {
+          kind: "list",
+          items: [
+            "Rent-increase restrictions under Ley 93 only bind housing renting for around $150/month or less; any increase on those units needs MIVIOT's express authorization.",
+            "Typical expat-oriented apartments in Panama City or other popular areas rent far above that figure, so in practice you're negotiating rent increases directly with your landlord rather than relying on a statutory cap.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The deposit-with-MIVIOT and contract-filing requirements technically apply across the board, not just to cheap units, but enforcement in practice is inconsistent, and plenty of landlords (especially for higher-end expat rentals) skip the government filing step entirely. Don't assume your deposit is sitting with the Ministry of Housing just because the law says it should be; ask directly and get the receipt in your own name.",
+    sources: [
+      {
+        label: "Ley 93 de 1973 (Ley de Arrendamientos)",
+        publisher: "Órgano Judicial de Panamá",
+        url: "https://www.organojudicial.gob.pa/cendoj/documentacion-cendoj/ordenamiento-juridico/area-jurisdiccional/civil/ley-93-de-1973",
+      },
+    ],
+  },
+  {
+    slug: "colombia",
+    name: "Colombia",
+    flagEmoji: "🇨🇴",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "No Cash Security Deposits",
+        content: {
+          kind: "list",
+          items: [
+            "Colombia's Ley 820 de 2003 (the national urban housing rental law) specifically prohibits landlords from requiring a cash deposit as a guarantee. Instead, landlords can require a rental insurance policy (póliza de arrendamiento), a CD/certificate of deposit (CDT) in the tenant's name, or advance payment of a few months' rent.",
+            "If a landlord asks you for a plain cash deposit as security, that specific arrangement isn't actually what the law contemplates, even though it's still common informal practice.",
+          ],
+        },
+      },
+      {
+        title: "Rent Increases",
+        content: {
+          kind: "list",
+          items: [
+            "Annual rent increases are capped at the prior year's CPI/IPC (Colombia's consumer price index), not an arbitrary landlord-set number.",
+          ],
+        },
+      },
+      {
+        title: "Ending a Lease",
+        content: {
+          kind: "list",
+          items: [
+            "If a landlord wants to end the lease at a renewal date rather than continuing it, they must give at least 3 months' written notice before that renewal date, and pay the tenant compensation equal to 3 months' rent, deposited with an authorized entity (Banco Agrario de Colombia).",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The plain-cash-deposit ban is worth knowing specifically because it cuts against what a lot of foreign renters expect coming from countries where a cash deposit is completely normal. If your prospective landlord in Colombia is asking for cash upfront as a 'deposit' rather than one of the legally contemplated alternatives (insurance policy, CDT, or rent prepayment), that's worth a conversation, not just an assumption that it's standard.",
+    sources: [
+      {
+        label: "Ley 820 de 2003 (Régimen de Arrendamiento de Vivienda Urbana)",
+        publisher: "Departamento Administrativo de la Función Pública, Colombia",
+        url: "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=8738",
+      },
+    ],
+  },
 ];

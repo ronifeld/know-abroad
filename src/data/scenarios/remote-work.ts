@@ -651,4 +651,447 @@ export const remoteWorkCountries: CountryContent[] = [
       },
     ],
   },
+  {
+    slug: "italy",
+    name: "Italy",
+    flagEmoji: "🇮🇹",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Working on a Tourist Stay",
+        content: {
+          kind: "list",
+          items: [
+            "A Schengen visa-free entry doesn't authorize professional activity, following the same general pattern as the rest of the Schengen Area. Remote work for a U.S. employer or clients isn't formally permitted on a plain tourist stay.",
+            "Italy launched an official Digital Nomad/Remote Worker visa in April 2024, a genuine legal path for non-EU remote employees and freelancers earning at least €28,000/year, with a university degree or equivalent professional experience and at least 6 months of remote-work history.",
+          ],
+        },
+      },
+      {
+        title: "Tax Residency",
+        content: {
+          kind: "list",
+          items: [
+            "You're an Italian tax resident for a given year if, for the majority of the year (at least 183 days, or 184 in a leap year), you're enrolled in the registry of the resident population, or you have your domicile or habitual residence in Italy.",
+            "Once resident, Italy taxes your worldwide income under its progressive IRPEF rates.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Italy's tax residency test isn't purely a day count: being enrolled in the local civil registry (anagrafe) of a comune counts on its own, separate from the 183-day threshold. That registration is exactly the kind of paperwork some long-stay rentals or residence-permit processes push you toward, so it's worth knowing that step alone can trigger Italian tax residency regardless of how many days you've actually spent in the country that year.",
+    sources: [
+      {
+        label: "Residence for Tax Purposes",
+        publisher: "Agenzia delle Entrate (Italian Revenue Agency)",
+        url: "https://www.agenziaentrate.gov.it/portale/web/english/residence-for-tax-purposes",
+      },
+      {
+        label: "Digital Nomad/Remote Worker Visa",
+        publisher: "Embassy of Italy, Washington, D.C.",
+        url: "https://ambwashingtondc.esteri.it/wp-content/uploads/2024/09/Digital-nomad-Remote-worker-visa.pdf",
+      },
+    ],
+  },
+  {
+    slug: "netherlands",
+    name: "Netherlands",
+    flagEmoji: "🇳🇱",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Working on a Tourist Stay",
+        content: {
+          kind: "list",
+          items: [
+            "As in the rest of the Schengen Area, a visa-free tourist stay doesn't authorize professional activity, so remote work for a U.S. employer or clients isn't formally permitted on a plain tourist entry.",
+            "The DAFT (Dutch-American Friendship Treaty) self-employed permit is the real, U.S.-citizen-specific legal path if you want to actually work while based in the Netherlands, not just visit. See the Visa & Immigration page for details.",
+          ],
+        },
+      },
+      {
+        title: "Tax Residency Isn't a Simple Day Count",
+        content: {
+          kind: "list",
+          items: [
+            "The Belastingdienst (Dutch Tax Administration) doesn't use a fixed day threshold for individual tax residency. Under Article 4 of the General State Taxes Act (AWR), it's a 'facts and circumstances' test based on where your actual center of life is.",
+            "Factors considered include where you spend most of your time, whether your partner/family lives in the Netherlands, whether you work there, and things like having a Dutch GP or bank accounts. Real (material) circumstances count for more than formal ones like municipal registration.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "There's no clean '183 days and you're a Dutch tax resident' rule the way there is in many countries. The Belastingdienst weighs your whole situation, personal ties, economic ties, where your actual life is centered, so someone splitting time carefully to stay under a day threshold isn't necessarily safe if enough of their real life (partner, bank accounts, doctor) has moved to the Netherlands anyway.",
+    sources: [
+      {
+        label: "Welke regels gelden voor het bepalen van het fiscale woon- of vestigingsland?",
+        publisher: "Belastingdienst (Dutch Tax Administration)",
+        url: "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/internationaal/vermogen/common_reporting_standard/regels",
+      },
+    ],
+  },
+  {
+    slug: "switzerland",
+    name: "Switzerland",
+    flagEmoji: "🇨🇭",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Working on a Tourist Stay",
+        content: {
+          kind: "list",
+          items: [
+            "As in the rest of the Schengen Area, a visa-free stay doesn't authorize gainful employment (Erwerbstätigkeit), which in practice covers remote work for a foreign employer or clients performed while physically in Switzerland.",
+          ],
+        },
+      },
+      {
+        title: "Tax Residency: 30 Days vs. 90 Days",
+        content: {
+          kind: "list",
+          items: [
+            "Under Article 3 of the Federal Direct Tax Act (DBG), Switzerland doesn't use one flat day count. You establish Swiss tax residency by physical stay if you're present at least 30 days while carrying out gainful/economic activity, or at least 90 days if you aren't.",
+            "This means working remotely (an economic activity, even for a foreign employer) can trigger Swiss tax residency in just 30 days, a third of the threshold that applies to someone genuinely just vacationing there.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Switzerland's tax residency threshold literally depends on whether you're working: 30 days if you are, 90 if you aren't. Someone quietly logging into a U.S. job from Switzerland can trip Swiss tax residency in a third of the time it would take a pure tourist doing the exact same amount of sightseeing, which is easy to miss if you're mentally using a generic '183 days' rule of thumb from somewhere else.",
+    sources: [
+      {
+        label: "Bundesgesetz über die direkte Bundessteuer (DBG), Art. 3",
+        publisher: "Fedlex (Swiss Federal Council)",
+        url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1991/1184_1184_1184/20260101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1991-1184_1184_1184-20260101-de-pdf-a-2.pdf",
+      },
+    ],
+  },
+  {
+    slug: "new-zealand",
+    name: "New Zealand",
+    flagEmoji: "🇳🇿",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Working Remotely Is Explicitly Permitted",
+        content: {
+          kind: "list",
+          items: [
+            "Unlike most countries on this site, New Zealand doesn't leave this in a gray area. As of January 27, 2025, Immigration New Zealand's visa conditions explicitly allow visitor visa and NZeTA holders to work remotely for an overseas employer or client while in the country.",
+            "What's still off-limits: working for a New Zealand-based employer, providing services to New Zealand individuals or businesses, or any work that requires your physical presence at a New Zealand workplace.",
+          ],
+        },
+      },
+      {
+        title: "Tax Residency",
+        content: {
+          kind: "list",
+          items: [
+            "You're a New Zealand tax resident if you're physically present more than 183 days in any 12-month period, regardless of what visa or permit you're on, including a visitor visa or NZeTA.",
+            "Days count in fractions (arrival and departure days both count as full days), and once you hit the 183-day mark, residency is backdated to the first of those days.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "New Zealand is a rare case where the legal question is already answered clearly: since January 2025, remote work for a foreign employer is explicitly written into visitor visa and NZeTA conditions, not just quietly tolerated. That's genuinely different from the gray-area situation in most other countries on this site, but the separate 183-day tax residency clock still runs the same regardless of your visa conditions, so a long remote-work stay can still trigger New Zealand tax residency on its own timeline.",
+    sources: [
+      {
+        label: "Working Remotely from New Zealand",
+        publisher: "Immigration New Zealand",
+        url: "https://www.immigration.govt.nz/about-us/news-centre/working-remotely-from-new-zealand",
+      },
+      {
+        label: "Tax residency status for individuals",
+        publisher: "Inland Revenue (IRD), New Zealand",
+        url: "https://www.ird.govt.nz/international-tax/individuals/tax-residency-status-for-individuals",
+      },
+    ],
+  },
+  {
+    slug: "vietnam",
+    name: "Vietnam",
+    flagEmoji: "🇻🇳",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Working on an E-Visa",
+        content: {
+          kind: "list",
+          items: [
+            "An e-visa doesn't authorize employment, and Vietnamese authorities can treat sustained remote work performed while physically in Vietnam as creating tax or legal exposure, even when your employer and clients are entirely outside the country.",
+            "One specific risk worth knowing: working remotely for a foreign company from Vietnam can, in some circumstances, be read as creating a 'permanent establishment' for that employer, a corporate tax concept that could create obligations for your employer, not just you.",
+          ],
+        },
+      },
+      {
+        title: "Tax Residency",
+        content: {
+          kind: "list",
+          items: [
+            "Under Circular 111/2013/TT-BTC, you're a Vietnamese tax resident if you're present 183 days or more in a calendar year, or 183 days or more in any 12 consecutive months from your arrival date (arrival and departure days both count as one full day).",
+            "You're also considered resident if you have a 'regular place of residence' in Vietnam, including a long-term house rental contract or a temporary/permanent residence card, which can apply to remote workers who've settled into a rental even without hitting the day count yet.",
+            "Once resident, you're taxed on worldwide income; non-residents are taxed only on Vietnam-sourced income, generally at a flat 20% rate.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Vietnam's tax residency test has a second trigger beyond the day count: simply having a long-term rental contract or a residence card counts as having a 'regular place of residence,' which can make you a tax resident even if you haven't hit 183 days yet. Signing a long lease to settle in for a while is exactly the kind of practical step that can trip this, independent of how many days you've actually counted.",
+    sources: [
+      {
+        label: "Circular No. 111/2013/TT-BTC (Personal Income Tax)",
+        publisher: "Ministry of Finance, Vietnam",
+        url: "https://thuvienphapluat.vn/van-ban/EN/Thue-Phi-Le-Phi/Circular-No-111-2013-TT-BTC-on-the-implementation-of-the-Law-on-personal-income-tax/207858/tieng-anh.aspx",
+      },
+    ],
+  },
+  {
+    slug: "indonesia",
+    name: "Indonesia",
+    flagEmoji: "🇮🇩",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Working on a Tourist Stay",
+        content: {
+          kind: "list",
+          items: [
+            "Visa-free and visa-on-arrival entries into Indonesia are for tourism only; they don't authorize any kind of work, including remote work for a foreign employer while physically present in Indonesia.",
+            "Indonesia introduced an actual legal path for this in April 2024: the E33G Remote Worker (digital nomad) visa. It requires proof of employment or contracts with clients/companies located outside Indonesia, minimum annual income of $60,000, and at least $2,000 in savings, and it explicitly prohibits earning income from, or providing services to, any Indonesian entity.",
+            "The E33G is a real visa you apply for in advance, not an interpretation of what a tourist entry quietly allows, so working remotely on an ordinary visa-free or VoA tourist entry stays technically unauthorized.",
+          ],
+        },
+      },
+      {
+        title: "The Second Home Visa Alternative",
+        content: {
+          kind: "list",
+          items: [
+            "Introduced in December 2022, Indonesia's Second Home Visa is a longer-term option (up to 5 years, extendable) aimed at high-net-worth individuals, requiring a bank deposit of at least $130,000, or alternatively owning property in Indonesia worth at least $1,000,000.",
+            "Like the E33G, the Second Home Visa does not permit working for or earning income from an Indonesian entity; it's a residency route, not a work-authorization route.",
+          ],
+        },
+      },
+      {
+        title: "Tax Residency",
+        content: {
+          kind: "list",
+          items: [
+            "Under Indonesia's Income Tax Law, you become an Indonesian tax resident if you're present in Indonesia for more than 183 days within any 12-month period, or if you reside in Indonesia with the intention to stay.",
+            "Once you're a tax resident, Indonesia taxes your worldwide income, not just Indonesia-sourced income.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Both of Indonesia's actual remote-work visa routes (E33G and the Second Home Visa) specifically bar you from earning money from Indonesian clients or employers, they're built for people whose income stays entirely foreign-sourced. If any part of your work shifts toward Indonesian clients while you're on one of these visas, you'd fall outside what the visa actually authorizes.",
+    sources: [
+      {
+        label: "Visa Tinggal Terbatas Bekerja - Pekerja Jarak Jauh (E33G)",
+        publisher: "Direktorat Jenderal Imigrasi, Indonesia",
+        url: "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/E33G",
+      },
+      {
+        label: "Penentuan Subjek Pajak Dalam Negeri dan Subjek Pajak Luar Negeri",
+        publisher: "Direktorat Jenderal Pajak, Indonesia",
+        url: "https://pajak.go.id/en/node/118835",
+      },
+    ],
+  },
+  {
+    slug: "philippines",
+    name: "Philippines",
+    flagEmoji: "🇵🇭",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Working on Visa-Free Entry",
+        content: {
+          kind: "list",
+          items: [
+            "A visa-free tourist entry doesn't authorize employment, and immigration law generally treats work as defined by where it's physically performed, so remote work for a U.S. employer while you're physically in the Philippines sits in a legal gray zone rather than a clearly sanctioned one.",
+            "In April 2025, the Philippines created an actual legal path for this: the Digital Nomad Visa (DNV), established by Executive Order No. 86. It authorizes a one-year stay (renewable once, for a maximum of two years), requires proof of remote work using digital technology and sufficient income generated outside the Philippines, and explicitly bars local employment.",
+          ],
+        },
+      },
+      {
+        title: "The Reciprocity Catch",
+        content: {
+          kind: "list",
+          items: [
+            "The DNV comes with an unusual eligibility condition: applicants must be a national of a country that itself offers a digital nomad visa to Filipino citizens, and where the Philippines maintains a Foreign Service Post.",
+            "As of this writing, the U.S. federal government does not operate a digital nomad visa program of its own, and no official Philippine government list has yet clarified exactly how this reciprocity requirement is being applied in practice, so it's genuinely unclear whether U.S. passport holders currently qualify at all. This is worth confirming directly with a Philippine Embassy or Consulate before counting on the DNV as your path.",
+          ],
+        },
+      },
+      {
+        title: "Tax Residency",
+        content: {
+          kind: "list",
+          items: [
+            "Unlike most countries on this site, Philippine tax residency for foreigners isn't primarily a fixed day-count test. Under the National Internal Revenue Code, a resident alien is generally someone in the Philippines without a definite intention as to length of stay, someone who isn't a mere transient, a fact-specific test based on intent and circumstances, not just a day tally.",
+            "There is a specific day-count trigger for a different classification: a nonresident alien who stays an aggregate of more than 180 days in a calendar year is deemed a 'nonresident alien engaged in trade or business,' which changes how Philippine-sourced income is taxed even without making you a full resident taxed on worldwide income.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The Digital Nomad Visa's reciprocity clause is a real trap for U.S. citizens specifically: because the U.S. has no federal digital nomad visa to offer in return, the plain text of Executive Order No. 86 arguably excludes American applicants entirely, even though most online guides describe the DNV as broadly available. Don't assume you qualify just because the visa exists; confirm your specific nationality's eligibility with a Philippine Embassy or Consulate before relying on it.",
+    sources: [
+      {
+        label: "Executive Order No. 86, s. 2025 (Digital Nomad Visa)",
+        publisher: "Republic of the Philippines (via LawPhil Project statute archive)",
+        url: "https://lawphil.net/executive/execord/eo2025/eo_86_2025.html",
+      },
+      {
+        label: "Republic Act No. 8424 (National Internal Revenue Code, Sec. 25)",
+        publisher: "Official Gazette of the Republic of the Philippines",
+        url: "https://www.officialgazette.gov.ph/1997/12/11/republic-act-no-8424/",
+      },
+    ],
+  },
+  {
+    slug: "india",
+    name: "India",
+    flagEmoji: "🇮🇳",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Working on a Tourist Visa",
+        content: {
+          kind: "list",
+          items: [
+            "India doesn't offer a digital nomad or remote-work visa; the e-Tourist Visa (see the Visa & Immigration page for India) is issued for tourism, and doesn't authorize employment of any kind, including remote work for a foreign employer performed while you're physically in India.",
+            "There's no dedicated legal pathway that specifically covers 'working remotely for a foreign company while visiting India' the way some other countries on this site now offer; you're operating in the same gray zone as unauthorized-but-quiet remote work in destinations without a nomad visa.",
+          ],
+        },
+      },
+      {
+        title: "Tax Residency",
+        content: {
+          kind: "list",
+          items: [
+            "Under Section 6 of the Income Tax Act, you become a tax resident of India if you're present for 182 days or more in a financial year (April to March), or, under an alternate test, 60 days or more in that year combined with 365 days or more across the preceding four years.",
+            "The 182-day threshold conveniently lines up with the FRRO registration trigger discussed on the Visa & Immigration page, so if you're tracking one, you're effectively tracking both.",
+            "Once you're a tax resident, India generally taxes worldwide income, not just India-sourced income; non-residents are taxed only on India-sourced income.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The complete absence of any digital-nomad or remote-work visa category is itself the gotcha: unlike Portugal, Spain, Indonesia, or the Philippines, there's no official route that specifically sanctions logging into a foreign job while visiting India on a tourist visa. Whatever you do here rests on quiet, unauthorized practice, not a legal framework built for it.",
+    sources: [
+      {
+        label: "Non-Resident FAQs (Residential Status, Section 6)",
+        publisher: "Income Tax Department, Government of India",
+        url: "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/non%20resident%20-faq",
+      },
+    ],
+  },
+  {
+    slug: "panama",
+    name: "Panama",
+    flagEmoji: "🇵🇦",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "The Actual Legal Path: Remote Worker Visa",
+        content: {
+          kind: "list",
+          items: [
+            "Panama created a dedicated Short-Stay Remote Worker Visa via Executive Decree No. 198 of May 2021. It's for employees of a foreign (transnational) company or self-employed people working remotely, whose income is generated outside Panama.",
+            "It requires proof of at least $36,000/year (about $3,000/month) in foreign-source income, health insurance valid in Panama for your full stay, and a $250 application fee paid to the National Migration Service.",
+            "The visa is granted for 9 months and can be extended once for another 9 months, for a maximum stay of 18 months under this specific category.",
+          ],
+        },
+      },
+      {
+        title: "Working on Ordinary Tourist Status",
+        content: {
+          kind: "list",
+          items: [
+            "The 180-day visa-free tourist entry (see the Visa & Immigration page for Panama) doesn't authorize employment of any kind. Quietly working remotely for a U.S. employer while on tourist status isn't specifically sanctioned the way it would be under the Remote Worker Visa.",
+          ],
+        },
+      },
+      {
+        title: "Territorial Tax System",
+        content: {
+          kind: "list",
+          items: [
+            "Panama uses a territorial tax system: only Panama-sourced income is taxed, regardless of your residency status. Foreign-sourced income, including income from a U.S. employer or U.S.-based clients, generally isn't taxed by Panama at all, even once you become a Panamanian tax resident.",
+            "You become a Panamanian tax resident if you're present in the country for more than 183 days, consecutive or not, in the same fiscal year or the immediately preceding one, though given the territorial system, hitting that threshold mainly affects things like eligibility for a Tax Residency Certificate rather than exposing your foreign income to Panamanian tax.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Panama's territorial tax system means the usual 'don't become a tax resident by accident' anxiety that applies in most countries on this site is much lower-stakes here: even if you do cross 183 days and become a Panamanian tax resident, your foreign-sourced remote income generally still isn't taxed locally. The bigger practical issue is the Remote Worker Visa's 18-month hard cap (9 months plus one 9-month extension); unlike some countries' renewable-forever nomad visas, there's a real ceiling on how long this specific legal path lasts.",
+    sources: [
+      {
+        label: "Requisitos para Solicitar Visa de Corta Estancia como Trabajador Remoto",
+        publisher: "Servicio Nacional de Migración, Panamá",
+        url: "https://www.migracion.gob.pa/wp-content/uploads/18.REQUISITOS-PARA-SOLICITAR-VISA-DE-CORTA-ESTANCIA-COMO-TRABAJADOR-REMOTO.pdf",
+      },
+      {
+        label: "Certificado de Residencia Fiscal (Art. 762-N, Código Fiscal)",
+        publisher: "Dirección General de Ingresos (DGI), Ministerio de Economía y Finanzas, Panamá",
+        url: "https://dgi.mef.gob.pa/Preguntas/Conve",
+      },
+    ],
+  },
+  {
+    slug: "colombia",
+    name: "Colombia",
+    flagEmoji: "🇨🇴",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "The Actual Legal Path: Digital Nomad Visa",
+        content: {
+          kind: "list",
+          items: [
+            "Colombia's Ministry of Foreign Affairs (Cancillería) offers a dedicated Visa V (Nómadas Digitales), for remote work or telework performed from Colombia exclusively for foreign companies or clients, as an employee or independent contractor.",
+            "It requires minimum monthly income of 3 times Colombia's minimum wage (SMMLV), sourced from abroad, and explicitly does not authorize receiving payroll payments from a Colombian company or holding a Colombian labor contract.",
+            "It's granted for up to 2 years and lets you obtain a Cédula de Extranjería, which in turn opens up things like opening local bank accounts or signing longer-term rental contracts.",
+          ],
+        },
+      },
+      {
+        title: "Working on Ordinary Tourist Status",
+        content: {
+          kind: "list",
+          items: [
+            "The visa-free tourist entry (see the Visa & Immigration page for Colombia) doesn't authorize employment. The Digital Nomad Visa exists precisely because working remotely on plain tourist status isn't a specifically sanctioned path.",
+          ],
+        },
+      },
+      {
+        title: "Tax Residency",
+        content: {
+          kind: "list",
+          items: [
+            "Under Article 10 of Colombia's Estatuto Tributario (Tax Code), you become a Colombian tax resident if you're present, continuously or not, for more than 183 days within any 365-day period.",
+            "If your stay spans more than one Colombian tax year, you're only treated as a resident starting in the second tax year, not retroactively from your first day.",
+            "Once resident, Colombia generally taxes worldwide income, though there are specific rules and treaty considerations for foreign-sourced income that are worth checking with a tax professional rather than assuming.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The Digital Nomad Visa's ban on Colombian-sourced income is stricter than it might sound: it's not just about avoiding a Colombian employer, taking on Colombian clients or freelance gigs on the side, even informally, falls outside what the visa authorizes. If any part of your income starts coming from within Colombia, you're operating outside the visa's actual terms, not just bending them.",
+    sources: [
+      {
+        label: "Visa V Nómadas Digitales",
+        publisher: "Ministerio de Relaciones Exteriores (Cancillería), Colombia",
+        url: "https://www.cancilleria.gov.co/v/nomadadigital",
+      },
+      {
+        label: "¿Eres residente en Colombia para efectos tributarios? (Art. 10, Estatuto Tributario)",
+        publisher: "Dirección de Impuestos y Aduanas Nacionales (DIAN), Colombia",
+        url: "https://www.dian.gov.co/impuestos/personas/Renta-Personas-Naturales-AG-2020/Paginas/Eres-residente-en-Colombia-para-efectos-tributarios.aspx",
+      },
+    ],
+  },
 ];

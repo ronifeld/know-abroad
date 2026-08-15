@@ -993,4 +993,513 @@ export const visaImmigrationCountries: CountryContent[] = [
       },
     ],
   },
+  {
+    slug: "italy",
+    name: "Italy",
+    flagEmoji: "🇮🇹",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Common Entry Types",
+        content: {
+          kind: "namedList",
+          items: [
+            {
+              name: "Schengen short stay (visa-free)",
+              description:
+                "As a U.S. citizen, you can enter Italy without a visa for up to 90 days within any rolling 180-day period, the same Schengen-wide rule as Spain, France, Portugal, and Germany. Your passport needs at least 3 months of validity beyond your planned departure from the Schengen Area.",
+            },
+            {
+              name: "National long-stay visa (over 90 days)",
+              description:
+                "Required for stays of 91 to 365 days, including Italy's Digital Nomad/Remote Worker visa (in force since April 2024) and its Elective Residency visa. Must be obtained from an Italian consulate in the U.S. before travel.",
+            },
+          ],
+        },
+      },
+      {
+        title: "Overstay Consequences",
+        content: {
+          kind: "list",
+          items: [
+            "Under Article 10-bis of Italy's immigration code (Legislative Decree 286/1998), illegal entry or stay is punishable by a fine of €5,000 to €10,000.",
+            "An expulsion order can carry a Schengen-wide re-entry ban of 1 to 5 years, and in serious cases can involve detention or court proceedings.",
+            "Since April 2026, the EU's Entry/Exit System (EES) replaced passport stamps with biometric digital records at Schengen borders, so your 90-day count is now tracked electronically rather than relying on stamps.",
+          ],
+        },
+      },
+      {
+        title: "Renewal Path",
+        content: {
+          kind: "orderedList",
+          items: [
+            "A short Schengen stay cannot be renewed in-country. You must leave the Schengen Area and wait out the rest of the 180-day window, or apply for a longer-stay visa.",
+            "If you're on the Digital Nomad/Remote Worker visa, you must apply for a permesso di soggiorno (residence permit) at the Questura within 8 days of arrival; it's issued for 1 year and can be renewed locally as long as you maintain employment, lodging, and health insurance.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Italy's bureaucracy has a quirk that catches a lot of Americans off guard: even some visa-exempt travelers can be required to register their presence with the Questura or obtain a codice fiscale (tax ID) for everyday things like a phone SIM or a long-term rental, well before anything resembling the 90-day limit becomes relevant. If you're staying more than a few days, especially outside a hotel, it's worth checking what paperwork your specific situation requires rather than assuming a visa-free entry means zero local paperwork.",
+    sources: [
+      {
+        label: "Visiting/Living in Italy",
+        publisher: "U.S. Embassy & Consulates in Italy",
+        url: "https://it.usembassy.gov/visiting-living-in-italy/",
+      },
+      {
+        label: "Digital Nomad/Remote Worker Visa",
+        publisher: "Embassy of Italy, Washington, D.C.",
+        url: "https://ambwashingtondc.esteri.it/wp-content/uploads/2024/09/Digital-nomad-Remote-worker-visa.pdf",
+      },
+      {
+        label: "Decreto Legislativo 25 luglio 1998, n. 286, Art. 10-bis",
+        publisher: "Gazzetta Ufficiale della Repubblica Italiana",
+        url: "https://www.gazzettaufficiale.it/atto/corte_costituzionale/caricaArticolo?art.versione=1&art.codiceRedazionale=011C0124&art.idArticolo=3&art.idSottoArticolo=0&art.dataPubblicazioneGazzetta=2011-03-02&art.progressivo=0",
+      },
+    ],
+  },
+  {
+    slug: "netherlands",
+    name: "Netherlands",
+    flagEmoji: "🇳🇱",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Common Entry Types",
+        content: {
+          kind: "namedList",
+          items: [
+            {
+              name: "Schengen short stay (visa-free)",
+              description:
+                "As a U.S. citizen, you can enter the Netherlands without a visa for up to 90 days within any rolling 180-day period, the same Schengen-wide rule as Spain, France, Italy, and Germany.",
+            },
+            {
+              name: "DAFT (Dutch-American Friendship Treaty) self-employed permit",
+              description:
+                "A genuinely U.S.-specific route: under a 1956 treaty, U.S. citizens can get a residence permit to work self-employed in the Netherlands by registering a business with the Dutch Chamber of Commerce (KVK) and investing at least €4,500 in it. The first permit is issued for 2 years, then can be extended for 5 more as long as the business equity never drops below €4,500.",
+            },
+          ],
+        },
+      },
+      {
+        title: "Overstay Consequences",
+        content: {
+          kind: "list",
+          items: [
+            "Overstaying follows the general Schengen pattern: fines, a possible entry ban, and automatic tracking via the EU's Entry/Exit System (EES).",
+            "An entry ban can apply Schengen-wide, not just for the Netherlands.",
+          ],
+        },
+      },
+      {
+        title: "Renewal Path",
+        content: {
+          kind: "orderedList",
+          items: [
+            "A short Schengen stay can't be renewed in-country. You must leave the Schengen Area and wait out the rest of the 180-day window, or apply for a longer-stay visa.",
+            "DAFT permit holders must register with the KVK and make the required investment within 6 months of receiving the permit, or the IND (Immigration and Naturalisation Service) can revoke it.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "DAFT is one of the more unusual visa pathways on this site because it's specifically written into a 1956 treaty for U.S. citizens; most other nationalities don't have an equivalent shortcut to Dutch self-employed residency. But it's not passive: you have to actually register and fund a real business within 6 months of approval, and keep at least €4,500 in it, or the IND can pull the permit.",
+    sources: [
+      {
+        label: "Application for the purpose of residence of 'to work on a self-employed basis'",
+        publisher: "Immigration and Naturalisation Service (IND), Netherlands",
+        url: "https://ind.nl/en/forms/7524.pdf",
+      },
+    ],
+  },
+  {
+    slug: "switzerland",
+    name: "Switzerland",
+    flagEmoji: "🇨🇭",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Common Entry Types",
+        content: {
+          kind: "namedList",
+          items: [
+            {
+              name: "Schengen short stay (visa-free)",
+              description:
+                "As a U.S. citizen, you can enter Switzerland without a visa for up to 90 days within any rolling 180-day period. Switzerland is in the Schengen Area but is not an EU member, the reverse situation from Ireland (which is in the EU but not Schengen).",
+            },
+          ],
+        },
+      },
+      {
+        title: "Overstay Consequences",
+        content: {
+          kind: "list",
+          items: [
+            "Switzerland's State Secretariat for Migration (SEM) handles overstays in tiers: minor cases get a fine at the border or through a cantonal fines office, while more serious cases are referred directly to SEM.",
+            "Reported fine ranges run from CHF 500 to CHF 10,000, and a first-time overstay commonly results in a 12-month entry ban.",
+            "Because Switzerland is in Schengen, an entry ban issued by SEM typically applies across the entire Schengen Area, not just Switzerland.",
+          ],
+        },
+      },
+      {
+        title: "Renewal Path",
+        content: {
+          kind: "orderedList",
+          items: [
+            "A short Schengen stay can't be renewed in-country. You must leave the Schengen Area and wait out the rest of the 180-day window, or apply for a longer-stay visa.",
+            "Anyone staying more than 3 months needs a residence permit, but unlike most countries on this site, these are handled at the cantonal (not federal) level, so the process and contact office depend on which canton you're in.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Switzerland flips the confusion Ireland causes elsewhere on this site: Ireland is EU-but-not-Schengen, Switzerland is Schengen-but-not-EU. Practically, that means your 90-day Schengen clock includes time in Switzerland the same as anywhere else in the Area, even though Switzerland isn't an EU member and residence permits there are handled canton-by-canton rather than through one national office.",
+    sources: [
+      {
+        label: "Visa, Entry to and residence in Switzerland",
+        publisher: "Federal Department of Foreign Affairs (FDFA), Switzerland, U.S. Mission",
+        url: "https://www.eda.admin.ch/countries/usa/en/home/visa/entry-ch.html",
+      },
+      {
+        label: "Swiss residence permits: application and renewal",
+        publisher: "ch.ch (Swiss Confederation, Cantons and Communes)",
+        url: "https://www.ch.ch/en/documents-and-register-extracts/permits-for-living-in-switzerland/",
+      },
+    ],
+  },
+  {
+    slug: "new-zealand",
+    name: "New Zealand",
+    flagEmoji: "🇳🇿",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Common Entry Types",
+        content: {
+          kind: "namedList",
+          items: [
+            {
+              name: "NZeTA (New Zealand Electronic Travel Authority)",
+              description:
+                "As a U.S. citizen, you need an NZeTA before you travel, even though the U.S. is visa-waiver eligible. Apply via the official app (around NZ$17) or website (around NZ$23); you'll also pay a separate International Visitor Conservation and Tourism Levy (IVL, around NZ$35) at the same time. It's valid for multiple trips over 2 years or until your passport expires, and allows a stay of up to 3 months per visit.",
+            },
+          ],
+        },
+      },
+      {
+        title: "Overstay Consequences",
+        content: {
+          kind: "list",
+          items: [
+            "If you're deported within 12 months of becoming unlawfully present, the standard re-entry ban is 2 years; if deported 12 months or more after, it's 5 years. A second unlawful stay also carries a 5-year ban.",
+            "Overstayers can't legally work or study, have no right to public healthcare or welfare support, and can be arrested, detained, and forcibly removed.",
+            "Immigration New Zealand explicitly encourages overstayers to come forward voluntarily, since doing so before being caught tends to produce better outcomes than waiting.",
+          ],
+        },
+      },
+      {
+        title: "Renewal Path",
+        content: {
+          kind: "orderedList",
+          items: [
+            "The NZeTA itself doesn't extend anything, it's pre-travel authorization, not a visa, and doesn't grant leave to stay beyond your permitted visit.",
+            "You can apply for a Visitor Visa extension through Immigration New Zealand before your initial stay expires; combined stays can potentially reach up to 9 months total.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "New Zealand is one of the countries here where visa-waiver eligibility and 'no pre-travel authorization needed' don't mean the same thing: you're eligible to enter without a visa, but you still need to apply for and pay for an NZeTA (plus the separate IVL tourism levy) before you fly, or your airline can deny boarding.",
+    sources: [
+      {
+        label: "Visa waiver countries and territories",
+        publisher: "Immigration New Zealand",
+        url: "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/visa-waiver-countries-and-territories/",
+      },
+      {
+        label: "NZeTA and visitor visas",
+        publisher: "New Zealand Government (govt.nz)",
+        url: "https://www.govt.nz/browse/immigration-and-visas/visit-nz/nzeta-and-visitor-visas/",
+      },
+    ],
+  },
+  {
+    slug: "vietnam",
+    name: "Vietnam",
+    flagEmoji: "🇻🇳",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Common Entry Types",
+        content: {
+          kind: "namedList",
+          items: [
+            {
+              name: "E-visa",
+              description:
+                "As a U.S. citizen, you're not visa-free in Vietnam. You need an e-visa before you travel, applied for online, valid up to 90 days as either single-entry ($25) or multiple-entry ($50), taking 3–5 business days to process. Your entry point (airport or border crossing) must match exactly what you declared on the application.",
+            },
+          ],
+        },
+      },
+      {
+        title: "Overstay Consequences",
+        content: {
+          kind: "list",
+          items: [
+            "Under Decree 282/2025/NĐ-CP (effective December 15, 2025, replacing the older Decree 144/2021/NĐ-CP), overstay fines were significantly increased: roughly $19–$76 for 1–15 days overstayed, doubling for the 16–29 day bracket.",
+            "Immigration authorities can order deportation for overstays of 16 days or more, and can deport immediately if you can't pay the fine.",
+            "Deportation involves detention during processing, a mandatory exit deadline, an exit visa requirement, and the deportee pays all associated costs (flights, admin fees, detention expenses); it can also come with a re-entry ban.",
+          ],
+        },
+      },
+      {
+        title: "Renewal Path",
+        content: {
+          kind: "orderedList",
+          items: [
+            "An e-visa can't be renewed in-country. If you need more time, apply for a new one or leave and re-enter within your visa's remaining validity.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Vietnam is a scam target for exactly this kind of paperwork: because the e-visa is applied for entirely online, fraudulent look-alike websites regularly mimic the official portal to collect your passport details and payment. Vietnam's own immigration department has published an explicit warning about this. Only use the government's actual current domains, not the first result that looks official.",
+    sources: [
+      {
+        label: "Vietnam E-Visa (National Portal on Immigration)",
+        publisher: "Vietnam Immigration Department",
+        url: "https://evisa.xuatnhapcanh.gov.vn/trang-chu-ttdt",
+      },
+      {
+        label: "Nghị định 282/2025/NĐ-CP",
+        publisher: "Cổng Thông tin điện tử Chính phủ (Vietnam Government Portal)",
+        url: "https://vanban.chinhphu.vn/?pageid=27160&docid=215770",
+      },
+    ],
+  },
+  {
+    slug: "indonesia",
+    name: "Indonesia",
+    flagEmoji: "🇮🇩",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Common Entry Types",
+        content: {
+          kind: "namedList",
+          items: [
+            {
+              name: "Visa on Arrival (VoA) / e-VoA",
+              description:
+                "As a U.S. citizen, you need a visa to enter Indonesia; there's no visa-free tourist entry. The Visa on Arrival (or its online version, the e-VoA) is the standard option, costing IDR 500,000 (about $35) and granting 30 days. You can extend it once, in person, for another 30 days (60 days total).",
+            },
+            {
+              name: "E33G Remote Worker visa",
+              description:
+                "A dedicated visa (launched April 2024) for remote workers employed by or contracting with a company based outside Indonesia. Requires proof of at least $60,000/year in income and $2,000+ in savings over the last 3 months; explicitly does not allow working for or being paid by Indonesian entities.",
+            },
+          ],
+        },
+      },
+      {
+        title: "Overstay Consequences",
+        content: {
+          kind: "list",
+          items: [
+            "The overstay fine is roughly IDR 1,000,000 (about $65) per day.",
+            "Overstaying beyond the 60-day maximum (initial stay plus one extension) can lead to deportation and being blacklisted from future entry.",
+          ],
+        },
+      },
+      {
+        title: "Renewal Path",
+        content: {
+          kind: "orderedList",
+          items: [
+            "A VoA/e-VoA can be extended once, for 30 more days, at a local immigration office; as of mid-2025, this requires an in-person visit for biometric data.",
+            "Beyond the 60-day combined maximum, you need to leave and, if eligible, re-apply, or transition to a different visa category like the E33G before your stay maxes out.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Indonesia doesn't have a free visa-waiver tourist entry for U.S. citizens the way many popular destinations do; you're paying for and applying for a Visa on Arrival every time, even for a short trip. And the 60-day combined ceiling (30 + one 30-day extension) is a hard stop, not something you can casually push past the way a discretionary officer-granted stay might work elsewhere.",
+    sources: [
+      {
+        label: "General Information (Visa on Arrival)",
+        publisher: "Directorate General of Immigration, Indonesia",
+        url: "https://molina.imigrasi.go.id/front/info/evoa",
+      },
+      {
+        label: "E33G Visa Pekerja Jarak Jauh (Remote Worker Visa)",
+        publisher: "Directorate General of Immigration, Indonesia",
+        url: "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/E33G",
+      },
+    ],
+  },
+  {
+    slug: "philippines",
+    name: "Philippines",
+    flagEmoji: "🇵🇭",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Visa-Free Entry",
+        content: {
+          kind: "list",
+          items: [
+            "U.S. citizens can enter without a visa and get an initial authorized stay of 30 days, counted from the day you're admitted.",
+            "You can extend at the Bureau of Immigration, in person or online; the first extension typically adds 29 days (bringing you to 59 days total), after which you can keep extending in 1- or 2-month increments.",
+            "Total stay can be extended repeatedly up to a maximum of 36 months (3 years) without leaving the country, though each extension has to be applied for before the current one expires.",
+          ],
+        },
+      },
+      {
+        title: "ACR I-Card Requirement",
+        content: {
+          kind: "list",
+          items: [
+            "Once your stay exceeds 59 days, you're required to register for an Alien Certificate of Registration (ACR I-Card), a physical ID card for foreign nationals staying longer-term.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "Overstaying triggers a fine of PHP 500 for every month you've overstayed, plus additional fees if you need a motion for reconsideration to sort it out, and it's charged from your original entry date, not from whenever you happen to notice. Because extensions are open-ended and easy to keep renewing, it's easy to lose track of exactly when your current authorized period actually ends.",
+    sources: [
+      {
+        label: "Temporary Visitor (9(a)) Visa Waiver",
+        publisher: "Bureau of Immigration, Republic of the Philippines",
+        url: "https://immigration.gov.ph/visas/visa-waiver/",
+      },
+    ],
+  },
+  {
+    slug: "india",
+    name: "India",
+    flagEmoji: "🇮🇳",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "No Visa-Free or Visa-on-Arrival Entry",
+        content: {
+          kind: "list",
+          items: [
+            "India doesn't offer visa-free entry or a traditional visa-on-arrival for U.S. citizens; a visa (typically the e-Tourist Visa applied for online in advance) is required before you travel.",
+            "The e-Tourist Visa comes in three tiers: 30-day (multiple entry, non-extendable, non-convertible), 1-year, and 5-year, both of the latter two allowing multiple entries.",
+          ],
+        },
+      },
+      {
+        title: "A Real Advantage for U.S. Passport Holders",
+        content: {
+          kind: "list",
+          items: [
+            "On the 1-year and 5-year e-Tourist Visa, the standard maximum continuous stay per visit is 90 days for most nationalities, but nationals of the U.S., UK, Canada, and Japan specifically get an extended 180-day continuous stay per visit.",
+          ],
+        },
+      },
+      {
+        title: "If You Stay Past 180 Days",
+        content: {
+          kind: "list",
+          items: [
+            "If you're holding a multiple-entry visa and intend to stay continuously for more than 180 days, you're required to register with the Foreigners Regional Registration Office (FRRO) within 14 days of your first arrival on that visa.",
+            "Registration is handled online through the e-FRRO portal; it only applies to your first visit after getting the visa, not to every subsequent trip on the same visa.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "India is one of the few countries on this site where U.S. citizens get a meaningfully better deal than most other nationalities: the 180-day continuous-stay allowance on the long-validity e-Tourist Visa (versus the standard 90 days) is a real, named carve-out for U.S. passport holders specifically, not a generic rule. Just don't let that 180-day advantage distract you from the FRRO registration requirement, which is triggered the moment you intend to stay continuously past 180 days and must be handled within 14 days of your arrival, not whenever you eventually hit day 180.",
+    sources: [
+      {
+        label: "e-Visa (Tourist Visa on Arrival) Information",
+        publisher: "Bureau of Immigration, Ministry of Home Affairs, Government of India",
+        url: "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      },
+      {
+        label: "Foreigners Registration",
+        publisher: "Ministry of External Affairs, Government of India",
+        url: "https://www.mea.gov.in/foreigners-registration.htm",
+      },
+    ],
+  },
+  {
+    slug: "panama",
+    name: "Panama",
+    flagEmoji: "🇵🇦",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Visa-Free Entry",
+        content: {
+          kind: "list",
+          items: [
+            "U.S. citizens (along with Canadians) get an especially generous entry: up to 180 days as a tourist, visa-free, under a reciprocity arrangement, roughly double what most nationalities receive elsewhere in Latin America.",
+            "Make sure you get an entry stamp in your passport on arrival; it's your proof of when the 180-day clock started.",
+          ],
+        },
+      },
+      {
+        title: "Extending or Overstaying",
+        content: {
+          kind: "list",
+          items: [
+            "Extensions beyond the initial 180 days are handled by Panama's National Migration Service (Servicio Nacional de Migración) and aren't guaranteed; if you want to stay longer, it's worth transitioning to an actual visa category (like the Remote Worker/Digital Nomad visa, see the Working Remotely page for Panama) before your 180 days run out.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The 180-day tourist allowance is genuinely one of the longest visa-free stays a U.S. passport gets anywhere in this dataset, but it's easy to let that generosity lull you into not planning ahead. Overstaying still carries fines and can complicate future entries, and 180 days arrives faster than it sounds once you're settled in.",
+    sources: [
+      {
+        label: "Requisitos de Entrada / Visa Policy",
+        publisher: "Servicio Nacional de Migración, Panamá",
+        url: "https://www.migracion.gob.pa/permisos-migratorios/",
+      },
+    ],
+  },
+  {
+    slug: "colombia",
+    name: "Colombia",
+    flagEmoji: "🇨🇴",
+    lastVerified: "2026-08-15",
+    sections: [
+      {
+        title: "Visa-Free Entry",
+        content: {
+          kind: "list",
+          items: [
+            "U.S. citizens can enter Colombia without a visa. The initial authorized stay is up to 90 days, which can be extended once for another 90 days, for a combined maximum of 180 days within a calendar year.",
+            "Before boarding your flight, you're required to complete Colombia's Check-Mig online form; airlines check for this at check-in.",
+            "You'll also need to show a return or onward ticket and be able to demonstrate you can support yourself financially during the visit.",
+          ],
+        },
+      },
+      {
+        title: "Extending Your Stay",
+        content: {
+          kind: "list",
+          items: [
+            "The extension to the full 180 days isn't automatic; you apply for it through Migración Colombia before your initial 90 days runs out.",
+          ],
+        },
+      },
+    ],
+    gotcha:
+      "The 180-day ceiling is a hard calendar-year cap, not a per-visit reset. If you use up your 180 days between January and June, leaving the country and coming back in August doesn't give you a fresh 180-day allowance; you're still counted against the same calendar year's total.",
+    sources: [
+      {
+        label: "Tipos de Visa / Exención de Visado",
+        publisher: "Ministerio de Relaciones Exteriores (Cancillería), Colombia",
+        url: "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa",
+      },
+    ],
+  },
 ];
