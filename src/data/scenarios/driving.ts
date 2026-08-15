@@ -42,6 +42,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Mexico drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "The most consequential thing most Americans don't realize before driving into Mexico: your U.S. auto insurance is worthless there, no exceptions, and Mexican authorities can legally detain everyone involved in a serious accident, including you, even if you're not at fault, until liability and compensation are sorted out. A Mexican liability policy with bail-bond coverage isn't a nice-to-have; it's what keeps a bad day from turning into days spent in a Mexican police station.",
@@ -90,9 +100,18 @@ export const drivingCountries: CountryContent[] = [
         content: {
           kind: "list",
           items: [
-            "Japan drives on the left, with the driver's seat on the right side of the vehicle.",
             "Drunk-driving enforcement is strict and culturally near-zero-tolerance; penalties apply at a lower blood alcohol level than in most U.S. states.",
             "Expressways are toll roads; electronic toll (ETC) systems are common in rental cars, but always confirm how tolls are billed with your rental company.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Japan drives on the left side of the road, the opposite of the U.S., with the steering wheel on the right side of the vehicle. Roundabouts flow clockwise, and it's worth consciously looking right first when crossing a street on foot, since that instinct doesn't come naturally.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
           ],
         },
       },
@@ -139,7 +158,6 @@ export const drivingCountries: CountryContent[] = [
         content: {
           kind: "list",
           items: [
-            "The UK drives on the left, with the driver's seat on the right side of the vehicle.",
             "You must be at least 17 to drive a standard car.",
           ],
         },
@@ -152,6 +170,16 @@ export const drivingCountries: CountryContent[] = [
             "Speed cameras and congestion-charge cameras typically don't stop you on the spot. The fine is mailed to whoever owns the vehicle, which for a rental car means the rental company.",
             "The rental company forwards the fine to you (or charges your card directly) and adds its own administrative fee, commonly in the £30–£50 range, on top of the fine itself.",
             "It's usually cheapest to pay promptly, since UK fines often have an early-payment discount window that closes after a set number of days.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "The UK drives on the left side of the road, the opposite of the U.S., with the steering wheel on the right side of the vehicle. Roundabouts flow clockwise, and it's worth consciously looking right first when crossing a street on foot, since that instinct doesn't come naturally.",
+            "Despite driving on the left, the UK is one of the few countries here that still posts speed limits and distances in miles per hour and miles, not kilometers, so this specific detail will actually feel familiar.",
           ],
         },
       },
@@ -197,6 +225,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Spain drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "There's a lot of conflicting advice online claiming an IDP is 'not really required' in Spain for U.S. license holders. Spanish law treats the U.S. as a non-EU/EEA country specifically because it is one, and that puts you in the category that's supposed to carry an IDP alongside your U.S. license. Getting pulled over without one risks a real fine, not just an inconvenience.",
@@ -233,6 +271,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Singapore drives on the left side of the road, the opposite of the U.S., with the steering wheel on the right side of the vehicle. Roundabouts flow clockwise, and it's worth consciously looking right first when crossing a street on foot, since that instinct doesn't come naturally.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "Singapore's IDP isn't renewable. It's simply valid for exactly 1 year from issue, full stop. If your trip (or a series of trips) stretches past that, you can't extend the same permit; you need a fresh one, and once you personally cross the 12-month mark of being in Singapore, an IDP won't help at all. You need an actual Singapore license.",
@@ -260,6 +308,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., the UAE drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "Technically you may be allowed to drive in the UAE on just your U.S. license, but that's mostly theoretical. In practice, no IDP means no rental car, since agencies enforce the IDP requirement themselves regardless of the strict legal minimum. Don't count on sorting this out after you land; get the IDP from AAA/AATA before you leave the U.S.",
@@ -284,6 +342,16 @@ export const drivingCountries: CountryContent[] = [
           items: [
             "For a short visit, French rules require a foreign license to either be in French, be accompanied by an official French translation, or be accompanied by an International Driving Permit.",
             "In practice, since a U.S. license is in English rather than French, carrying an IDP is the simplest way to satisfy this. It's effectively a standardized translation of your license, recognized without needing a separate certified translation.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., France drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
           ],
         },
       },
@@ -323,6 +391,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Canada drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Canada uses kilometers (km/h) for speed limits and distances, not miles, one of the few everyday differences from home despite how similar driving there otherwise feels.",
+          ],
+        },
+      },
     ],
     gotcha:
       "Canada is the one country on this list where you genuinely don't need to think about an IDP at all as a tourist: no permit, no translation, nothing beyond your ordinary U.S. license. The thing to actually track is the date you stop being 'just visiting' and start being a resident, since that's what quietly shortens your window to switch to a provincial license.",
@@ -347,6 +425,16 @@ export const drivingCountries: CountryContent[] = [
           items: [
             "As a temporary visitor, you can drive on your valid U.S. license for up to 6 months, as long as you remain a temporary visitor, haven't been disqualified from driving anywhere, and carry the license at all times.",
             "No International Driving Permit is legally required if your license is in English (a U.S. license already qualifies), though some rental companies or specific states may still ask for one anyway.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Australia drives on the left side of the road, the opposite of the U.S., with the steering wheel on the right side of the vehicle. Roundabouts flow clockwise, and it's worth consciously looking right first when crossing a street on foot, since that instinct doesn't come naturally.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
           ],
         },
       },
@@ -385,6 +473,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Ireland drives on the left side of the road, the opposite of the U.S., with the steering wheel on the right side of the vehicle. Roundabouts flow clockwise, and it's worth consciously looking right first when crossing a street on foot, since that instinct doesn't come naturally.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "Ireland's 12-month visitor allowance for a U.S. license is generous by comparison to most of Europe, and doesn't need an IDP, but the moment your stay shifts from 'visiting' to 'residing' (a lease, a job, that sort of thing), that allowance stops applying, regardless of how much of the 12 months you have left.",
@@ -417,6 +515,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Portugal drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "Whether you 'need' an IDP in Portugal depends on who's asking. The law is more lenient than most of Europe for a short stay, but the rental counter isn't the law, and most agencies simply won't rent to you without one. Get the IDP before you go if you're renting a car, even though it isn't strictly a legal requirement for driving itself.",
@@ -441,6 +549,16 @@ export const drivingCountries: CountryContent[] = [
           items: [
             "As a tourist, you can drive in Germany on a valid U.S. license for up to 6 months without needing to obtain a German license.",
             "An International Driving Permit isn't strictly required if your license is already in German or English (a U.S. license qualifies), but it's still commonly recommended and often requested by rental agencies and in the event of a police stop or accident.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Germany drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph. Note that some stretches of the Autobahn have no posted maximum at all, a genuine outlier by U.S. standards.",
           ],
         },
       },
@@ -480,6 +598,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Brazil drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "Brazil is the one country here where the 'standard' AAA International Driving Permit most Americans get for Europe genuinely might not be the right document. Brazil's framework is built around the 1968 Vienna Convention, which the U.S. never joined, unlike most of the countries on this list. A certified Portuguese translation of your U.S. license, or specifically an Inter-American Driving Permit, is the safer bet.",
@@ -516,6 +644,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Costa Rica drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "Costa Rica is unusually simple for a short trip, no IDP, just your U.S. license and passport, but that simplicity has a hard deadline: 3 months, not 90 days measured some other way, and not renewable by leaving and re-entering the way some visa rules work elsewhere on this site. Past that point you need to have already started the homologation process.",
@@ -540,6 +678,16 @@ export const drivingCountries: CountryContent[] = [
           items: [
             "A U.S. license alone is not accepted for driving in Thailand. You must carry both your valid U.S. license and an International Driving Permit recognized under international convention at all times.",
             "Get the IDP from AAA or AATA before you travel; it's valid for 1 year from its issue date.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Thailand drives on the left side of the road, the opposite of the U.S., with the steering wheel on the right side of the vehicle. Roundabouts flow clockwise, and it's worth consciously looking right first when crossing a street on foot, since that instinct doesn't come naturally.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
           ],
         },
       },
@@ -568,6 +716,16 @@ export const drivingCountries: CountryContent[] = [
             "You need both a valid U.S. license and an International Driving Permit to drive or rent a car in South Korea. A U.S. license alone isn't accepted at rental counters or in a roadside check.",
             "South Korea recognizes IDPs issued under the 1949 Geneva Convention, which is exactly the format AAA and AATA issue in the U.S., so the standard American IDP works here without the complication seen in Brazil.",
             "The IDP is valid for up to 1 year from its issue date.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., South Korea drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
           ],
         },
       },
@@ -609,6 +767,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Italy drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "Italy is one of those 'technically optional, practically not' situations: the law allows a certified Italian translation of your license as an alternative to an IDP, but getting a certified translation is more hassle than just getting the IDP from AAA before your trip, and the fine range for showing up without either (€80–€317) is real enough that it's not worth testing.",
@@ -645,6 +813,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., the Netherlands drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph. Cyclists have extensive dedicated lanes and strong right-of-way protections; watch for bike traffic more than you would at home.",
+          ],
+        },
+      },
     ],
     gotcha:
       "The Netherlands' 185-day allowance for a U.S. license is more generous than most Schengen countries covered here, but it's tied to your actual move-in date, not to how long you've technically been 'in the country' on paper. Track the date from your arrival carefully if you're settling in rather than just visiting.",
@@ -669,6 +847,16 @@ export const drivingCountries: CountryContent[] = [
           items: [
             "As a visitor, you can drive on your valid U.S. license for up to 1 year, since it's accepted in English (Switzerland also accepts French, German, and Italian).",
             "An International Driving Permit isn't strictly required by law for a U.S. license, but it's strongly recommended and frequently requested by rental car agencies regardless of the legal minimum.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Switzerland drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph. Most Swiss motorways also require a paid annual vignette (sticker) displayed on the windshield, not a per-use toll.",
           ],
         },
       },
@@ -710,6 +898,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "New Zealand drives on the left side of the road, the opposite of the U.S., with the steering wheel on the right side of the vehicle. Roundabouts flow clockwise, and it's worth consciously looking right first when crossing a street on foot, since that instinct doesn't come naturally.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "New Zealand's generous 18-month allowance for a foreign license is about to get shorter: from November 1, 2026, it drops to 12 months. If you're planning an extended stay that straddles that date, don't assume the older, longer window still applies, check NZTA's site for the current rule before you rely on a specific number of months.",
@@ -740,6 +938,16 @@ export const drivingCountries: CountryContent[] = [
             "According to U.S. Embassy guidance, a foreign license, even paired with an International Driving Permit, is not considered valid for driving in Vietnam.",
             "The core issue: Vietnam recognizes IDPs issued under the 1968 Vienna Convention on Road Traffic. The U.S. only issues IDPs under the 1949 Geneva Convention, so a standard AAA/AATA-issued American IDP isn't the document Vietnam actually accepts.",
             "To drive legally, foreigners generally need to obtain a Vietnamese driver's license through the local Traffic Police Department.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Vietnam drives on the right side of the road, so the basic flow of traffic will feel familiar, though the sheer volume of motorbike traffic weaving through intersections is not something U.S. driving prepares you for.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
           ],
         },
       },
@@ -777,6 +985,16 @@ export const drivingCountries: CountryContent[] = [
           kind: "list",
           items: [
             "An IDP only covers short-term visitors. If you're staying on a longer-term permit like a KITAS (temporary residence permit), you're required to get a local Indonesian driving license (SIM) instead.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Indonesia drives on the left side of the road, the opposite of the U.S., with the steering wheel on the right side of the vehicle. Roundabouts flow clockwise, and it's worth consciously looking right first when crossing a street on foot, since that instinct doesn't come naturally.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
           ],
         },
       },
@@ -818,6 +1036,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., the Philippines drives on the right side of the road (it actually switched over from the left back in 1945), so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "The 90-day clock runs from your date of arrival in the Philippines, not from when you first get behind the wheel, and it isn't reset by a visa extension. It's easy to extend your tourist stay well past 90 days (which the Bureau of Immigration allows routinely) while forgetting that your driving privileges quietly expired on a separate, shorter clock.",
@@ -846,6 +1074,16 @@ export const drivingCountries: CountryContent[] = [
           ],
         },
       },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "India drives on the left side of the road, the opposite of the U.S., with the steering wheel on the right side of the vehicle. Roundabouts flow clockwise, and it's worth consciously looking right first when crossing a street on foot, since that instinct doesn't come naturally.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
+          ],
+        },
+      },
     ],
     gotcha:
       "Given how India's traffic environment is often described (dense, unpredictable, and very different from U.S. norms), many visitors choose to hire a local driver rather than self-drive at all; this isn't a legal requirement, just a practical note worth knowing before you assume renting a car works the way it might elsewhere. Legally, though, the license/IDP combination is what's required if you do drive yourself.",
@@ -870,6 +1108,16 @@ export const drivingCountries: CountryContent[] = [
           items: [
             "Under Panama's Vehicular Transit Regulations (Article 110), foreign tourists can drive using a valid license from their home country for up to 90 days from entry; they're not permitted to obtain a Panamanian license or extend that 90-day driving window while on tourist status.",
             "An International Driving Permit isn't legally required, but it's a widely recommended Spanish-language supplement to your home license, useful if you're stopped and the officer isn't familiar with foreign license formats.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Panama drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
           ],
         },
       },
@@ -906,6 +1154,16 @@ export const drivingCountries: CountryContent[] = [
           kind: "list",
           items: [
             "If your stay extends past the tourist/transit period (beyond roughly 6 months) or your immigration status changes, you're required to apply for a Colombian license under the first-time applicant process, following the standard requirements.",
+          ],
+        },
+      },
+      {
+        title: "Road Basics for Americans",
+        content: {
+          kind: "list",
+          items: [
+            "Like the U.S., Colombia drives on the right side of the road, so the basic flow of traffic will feel familiar.",
+            "Speed limits and distances are posted in kilometers (km/h), not miles. A 100 km/h limit is about 62 mph; a 50 km/h limit, common in towns, is about 31 mph.",
           ],
         },
       },
