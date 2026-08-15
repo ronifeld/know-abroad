@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact — Know Abroad",
+  title: "Contact | Know Abroad",
   description: "Report something outdated, suggest a country, or just say hi.",
 };
 

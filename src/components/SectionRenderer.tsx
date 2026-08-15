@@ -1,8 +1,8 @@
 import CountrySection from "@/components/CountrySection";
 import type { ContentSection } from "@/types/scenario";
 
-// Renders one country-page section generically based on its content kind —
-// this is what lets every scenario define its own section titles/shapes
+// Renders one country-page section generically based on its content kind.
+// This is what lets every scenario define its own section titles/shapes
 // without touching any component code.
 export default function SectionRenderer({ section }: { section: ContentSection }) {
   const { title, content } = section;

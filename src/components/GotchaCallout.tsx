@@ -8,7 +8,7 @@ export default function GotchaCallout({
   label?: string;
 }) {
   return (
-    <div className="rounded-md border border-gotcha-border/40 border-l-4 border-l-gotcha-border bg-gotcha-bg px-5 py-4">
+    <div className="rounded-2xl border border-gotcha-border/40 border-l-4 border-l-gotcha-border bg-gotcha-bg px-5 py-4 shadow-[var(--card-shadow)]">
       <p className="flex items-center gap-2 font-heading text-sm font-semibold uppercase tracking-wide text-gotcha-text">
         <svg
           viewBox="0 0 20 20"

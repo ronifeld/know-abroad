@@ -1,7 +1,7 @@
 // Generalized content model. A Scenario (e.g. "Visa & Immigration",
 // "Renting & Tenant Rights") is a topic; each scenario has its own set of
 // countries, and each country page renders whatever sections that scenario
-// defines — section titles are NOT hardcoded to visa language anywhere in
+// defines. Section titles are NOT hardcoded to visa language anywhere in
 // the components, so a new scenario just needs new data, not new UI code.
 
 export interface NamedItem {
@@ -42,8 +42,8 @@ export interface CountryContent {
 export interface Scenario {
   slug: string;
   title: string; // e.g. "Visa & Immigration"
-  shortLabel: string; // used in breadcrumbs / cards — usually same as title
+  shortLabel: string; // used in breadcrumbs / cards, usually same as title
   description: string;
-  gotchaLabel: string; // e.g. "The Gotcha" — scenario can rename this if useful later
+  gotchaLabel: string; // e.g. "The Gotcha"; scenario can rename this if useful later
   countries: CountryContent[];
 }

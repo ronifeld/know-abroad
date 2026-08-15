@@ -8,6 +8,7 @@ import SectionRenderer from "@/components/SectionRenderer";
 import GotchaCallout from "@/components/GotchaCallout";
 import SourcesList from "@/components/SourcesList";
 import PassportScopeBadge from "@/components/PassportScopeBadge";
+import CountryFlag from "@/components/CountryFlag";
 import { getAllScenarios, getCountryInScenario } from "@/lib/scenarios";
 
 export async function generateStaticParams() {
@@ -28,7 +29,7 @@ export async function generateMetadata({
   const match = getCountryInScenario(scenarioSlug, countrySlug);
   return {
     title: match
-      ? `${match.country.name} — ${match.scenario.title} — Know Abroad`
+      ? `${match.country.name} | ${match.scenario.title} | Know Abroad`
       : "Not found",
   };
 }
@@ -68,7 +69,7 @@ export default async function CountryPage({
 
         <div className="mt-4 mb-8 border-b border-border pb-6">
           <h1 className="flex items-center gap-3 font-heading text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            <span aria-hidden="true">{country.flagEmoji}</span>
+            <CountryFlag slug={country.slug} name={country.name} className="h-8 w-[2.667rem] rounded-md sm:h-9 sm:w-12" />
             {country.name}
           </h1>
           <p className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1 text-xs font-medium text-muted">

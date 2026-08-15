@@ -1,4 +1,4 @@
-// Home page — scenario picker, driven by src/data/scenarios.
+// Home page: scenario picker, driven by src/data/scenarios.
 import Container from "@/components/Container";
 import ScenarioCard from "@/components/ScenarioCard";
 import { getAllScenarios } from "@/lib/scenarios";

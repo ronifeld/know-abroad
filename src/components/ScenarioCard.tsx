@@ -1,5 +1,5 @@
 // Card on the home page linking to a scenario (e.g. "Visa & Immigration").
-// More scenarios will be appended later — this component stays generic.
+// More scenarios will be appended later; this component stays generic.
 import Link from "next/link";
 
 interface ScenarioCardProps {
@@ -12,7 +12,7 @@ export default function ScenarioCard({ title, description, href }: ScenarioCardP
   return (
     <Link
       href={href}
-      className="group flex flex-col gap-3 rounded-md border border-border bg-surface p-6 transition-colors hover:border-accent/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent sm:p-8"
+      className="group flex flex-col gap-3 rounded-2xl border border-border bg-surface p-6 shadow-[var(--card-shadow)] transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/40 hover:shadow-[var(--card-shadow-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent sm:p-8"
     >
       <div className="flex items-start justify-between gap-4">
         <h2 className="font-heading text-xl font-semibold text-foreground">

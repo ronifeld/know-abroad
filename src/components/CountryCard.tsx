@@ -1,6 +1,7 @@
 // Card on a scenario's country picker page, linking to /[scenario]/[country].
 import Link from "next/link";
 import type { CountryContent } from "@/types/scenario";
+import CountryFlag from "@/components/CountryFlag";
 
 export default function CountryCard({
   country,
@@ -12,11 +13,9 @@ export default function CountryCard({
   return (
     <Link
       href={`/${scenarioSlug}/${country.slug}`}
-      className="group flex items-center gap-4 rounded-md border border-border bg-surface p-5 transition-colors hover:border-accent/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+      className="group flex items-center gap-4 rounded-2xl border border-border bg-surface p-5 shadow-[var(--card-shadow)] transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/40 hover:shadow-[var(--card-shadow-hover)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
     >
-      <span className="text-2xl leading-none" aria-hidden="true">
-        {country.flagEmoji}
-      </span>
+      <CountryFlag slug={country.slug} name={country.name} />
       <span className="font-heading text-base font-semibold text-foreground">
         {country.name}
       </span>

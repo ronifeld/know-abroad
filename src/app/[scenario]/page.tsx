@@ -19,7 +19,7 @@ export async function generateMetadata({
   const { scenario: scenarioSlug } = await params;
   const scenario = getScenarioBySlug(scenarioSlug);
   return {
-    title: scenario ? `${scenario.title} — Know Abroad` : "Not found",
+    title: scenario ? `${scenario.title} | Know Abroad` : "Not found",
   };
 }
 
@@ -52,7 +52,7 @@ export default async function ScenarioCountriesPage({
         </div>
         {scenario.countries.length === 0 ? (
           <p className="text-sm text-muted">
-            No countries added for this topic yet — check back soon.
+            No countries added for this topic yet. Check back soon.
           </p>
         ) : (
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">

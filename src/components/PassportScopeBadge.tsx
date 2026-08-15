@@ -1,4 +1,4 @@
-// Makes explicit which passport this content assumes — entry types, visa-free
+// Makes explicit which passport this content assumes. Entry types, visa-free
 // durations, and required documents differ by nationality, so this scope
 // needs to be visible, not just implied by copy. Other passports are a
 // planned addition, not yet built.

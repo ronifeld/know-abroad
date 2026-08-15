@@ -4,7 +4,7 @@ import Container from "@/components/Container";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "About — Know Abroad",
+  title: "About | Know Abroad",
   description:
     "Why Know Abroad exists, from Roni, who has lived in 3 (soon 4) countries and dealt with the complexity firsthand.",
 };
@@ -70,6 +70,15 @@ export default function AboutPage() {
             </Link>
             .
           </p>
+
+          <div className="pt-4">
+            <p className="font-heading text-2xl text-foreground" style={{ fontStyle: "italic" }}>
+              Roni
+            </p>
+            <p className="mt-1 text-xs text-muted">
+              Written from Spain, country #3 (of many more to come)
+            </p>
+          </div>
         </div>
       </Container>
     </main>
