@@ -70,15 +70,6 @@ export default function AboutPage() {
             </Link>
             .
           </p>
-
-          <div className="pt-4">
-            <p className="font-heading text-2xl text-foreground" style={{ fontStyle: "italic" }}>
-              Roni
-            </p>
-            <p className="mt-1 text-xs text-muted">
-              Written from Spain, country #3 (of many more to come)
-            </p>
-          </div>
         </div>
       </Container>
     </main>

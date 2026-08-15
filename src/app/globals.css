@@ -1,24 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --background: #faf9f6;
-  --foreground: #211d17;
+  --background: #f8fafc;
+  --foreground: #0f172a;
   --surface: #ffffff;
-  --border: #e7e2d8;
-  --muted: #5c5548;
+  --border: #e2e8f0;
+  --muted: #475569;
   --accent: #2f5aa8;
   --accent-foreground: #ffffff;
   --brand-dark: #16305c;
   --brand-light: #4d76c2;
-  --warm: #c1652f;
-  --banner-bg: #f4f1ea;
-  --banner-border: #e3dccc;
-  --banner-text: #3d3527;
+  --banner-bg: #f1f5f9;
+  --banner-border: #dbe3ec;
+  --banner-text: #334155;
   --gotcha-bg: #fdf8ee;
   --gotcha-border: #c8973a;
   --gotcha-text: #4a3a12;
-  --card-shadow: 0 1px 2px rgba(33, 29, 23, 0.04), 0 2px 8px rgba(33, 29, 23, 0.05);
-  --card-shadow-hover: 0 2px 4px rgba(33, 29, 23, 0.06), 0 8px 20px rgba(33, 29, 23, 0.08);
+  --card-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 2px 8px rgba(15, 23, 42, 0.05);
+  --card-shadow-hover: 0 2px 4px rgba(15, 23, 42, 0.06), 0 8px 20px rgba(15, 23, 42, 0.08);
 }
 
 @theme inline {
@@ -31,7 +30,6 @@
   --color-accent-foreground: var(--accent-foreground);
   --color-brand-dark: var(--brand-dark);
   --color-brand-light: var(--brand-light);
-  --color-warm: var(--warm);
   --color-banner-bg: var(--banner-bg);
   --color-banner-border: var(--banner-border);
   --color-banner-text: var(--banner-text);
@@ -53,7 +51,6 @@
     --accent-foreground: #0b1220;
     --brand-dark: #cddcf5;
     --brand-light: #7fa3e0;
-    --warm: #e0895a;
     --banner-bg: #10192b;
     --banner-border: #22304a;
     --banner-text: #c3ccdb;
