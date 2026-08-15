@@ -3,6 +3,7 @@ import { visaImmigrationCountries } from "./visa-immigration";
 import { rentingCountries } from "./renting";
 import { drivingCountries } from "./driving";
 import { remoteWorkCountries } from "./remote-work";
+import { healthEmergenciesCountries } from "./health-emergencies";
 
 export const scenarios: Scenario[] = [
   {
@@ -40,5 +41,14 @@ export const scenarios: Scenario[] = [
       "Whether logging into your U.S. job counts as illegal work abroad, tax-residency triggers, and when you're expected to switch to a proper remote-work visa.",
     gotchaLabel: "The Gotcha",
     countries: remoteWorkCountries,
+  },
+  {
+    slug: "health-emergencies",
+    title: "Health & Medical Emergencies",
+    shortLabel: "Health Emergencies",
+    description:
+      "Who to call for an ambulance, and what to actually expect at a hospital as a foreigner.",
+    gotchaLabel: "The Gotcha",
+    countries: healthEmergenciesCountries,
   },
 ];
