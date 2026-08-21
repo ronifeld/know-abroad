@@ -19,6 +19,10 @@ export default function SiteFooter() {
               Roni
             </Link>{" "}
             &middot;{" "}
+            <Link href="/faq" className="underline hover:text-accent">
+              FAQ
+            </Link>{" "}
+            &middot;{" "}
             <Link href="/contact" className="underline hover:text-accent">
               Contact
             </Link>

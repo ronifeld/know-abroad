@@ -18,6 +18,12 @@ export default function SiteHeader() {
               About
             </Link>
             <Link
+              href="/faq"
+              className="text-sm font-medium text-muted transition-colors hover:text-accent"
+            >
+              FAQ
+            </Link>
+            <Link
               href="/contact"
               className="text-sm font-medium text-muted transition-colors hover:text-accent"
             >
