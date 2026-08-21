@@ -4,6 +4,7 @@ import { rentingCountries } from "./renting";
 import { drivingCountries } from "./driving";
 import { remoteWorkCountries } from "./remote-work";
 import { healthEmergenciesCountries } from "./health-emergencies";
+import { localLawsCountries } from "./local-laws";
 
 export const scenarios: Scenario[] = [
   {
@@ -50,5 +51,14 @@ export const scenarios: Scenario[] = [
       "Who to call for an ambulance, and what to actually expect at a hospital as a foreigner.",
     gotchaLabel: "The Gotcha",
     countries: healthEmergenciesCountries,
+  },
+  {
+    slug: "local-laws",
+    title: "Local Laws & Customs",
+    shortLabel: "Local Laws & Customs",
+    description:
+      "What's normal, what's illegal, and what can get you in real trouble as a visitor.",
+    gotchaLabel: "The Gotcha",
+    countries: localLawsCountries,
   },
 ];
